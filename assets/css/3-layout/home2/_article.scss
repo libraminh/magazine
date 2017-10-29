@@ -1,0 +1,25 @@
+.article {
+  &-list {
+    margin-top: -20px;
+
+    li {
+      margin-bottom: 15px;
+    }
+
+    a {
+      display: block;
+      color: $text-color3;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      @include hoverColor($accent-color);
+    }
+
+    p {
+      color: $text-color1;
+      font-size: 12px;
+      line-height: 24px;
+    }
+  }
+}

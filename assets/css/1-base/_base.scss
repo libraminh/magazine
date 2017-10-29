@@ -1,0 +1,92 @@
+/* GLOBAL CSS
+   ----------------------------- */
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+body {
+  @include font('Montserrat');
+}
+
+/* GLOBAL CLASS
+   ----------------------------- */
+
+.line-1 {
+  border-bottom: 2px solid $border-color;
+  position: relative;
+
+  &:before {
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 2px solid $white-color;
+    border-radius: 50%;
+    background: $accent-color;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+
+    &:before {
+      display: block;
+      content: '';
+      width: 100px;
+      height: 5px;
+      background: red;
+    }
+  }
+
+  &:after {
+    display: block;
+    content: '';
+    width: 70px;
+    height: 2px;
+    border-radius: 50%;
+    background: $accent-color;
+    position: absolute;
+    left: 10px;
+    bottom: -2px;
+  }
+}
+
+.line-2 {
+  @extend .line-1;
+  border: none;
+  margin: 15px 0 32px;
+
+  &:after {
+    width: 40px;
+  }
+}
+
+.title-line {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.Mb20 {
+  margin-bottom: 20px;
+}
+
+.Mb40 {
+  margin-bottom: 40px;
+}
+
+.Mb50 {
+  margin-bottom: 50px;
+}
+
+.Mb60 {
+  margin-bottom: 60px;
+}
+
+.My50 {
+  margin: 50px 0;
+}

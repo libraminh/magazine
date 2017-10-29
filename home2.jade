@@ -1,0 +1,74 @@
+include jadefiles/global/head.jade
+|
+|
+body.home2-page
+  |
+  |
+  .home-wrap
+    include jadefiles/home2/header.jade
+    |
+    |
+    include jadefiles/home2/carousel.jade
+    |
+    |
+    include jadefiles/home2/news.jade
+    |
+    |
+    .home-sections
+      .container
+        .row
+          // Primary Column
+          .col-md-8.primary-col
+            include jadefiles/home2/featured.jade
+          |
+          |
+          // Sidebar Column
+          .col-md-4.sidebar-col
+            include jadefiles/home2/connected.jade
+            .Mb50
+            |
+            |
+            include jadefiles/home2/latest.jade
+          |
+          |
+          .col-md-12
+            include jadefiles/home2/ads.jade
+          |
+          |
+          .col-md-12
+            include jadefiles/home2/top-rate.jade
+          |
+          |
+          |
+          |
+          // Primary Column
+          .col-md-8.primary-col.My50
+            include jadefiles/home2/movie.jade
+            |
+            |
+            include jadefiles/home2/hotgraphies-modern.jade
+          |
+          |
+          // Sidebar Column
+          .col-md-4.sidebar-col.My50
+            include jadefiles/home2/article.jade
+            |
+            |
+            include jadefiles/home2/ads-1.jade
+      |
+      |
+      include jadefiles/home2/video.jade
+      
+          
+            
+      
+          
+          
+    
+  |        
+  |
+  |      
+  div(style="height: 1000px")  
+  |
+  |
+  include jadefiles/global/footer.jade

@@ -1,0 +1,32 @@
+.media-1 {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  h5 {
+    color: $text-color3;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    @include hoverColor($accent-color);
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 24px;
+    color: $text-color1;
+  }
+}
+
+.media-2 {
+  @extend .media-1;
+
+
+  h5 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+}

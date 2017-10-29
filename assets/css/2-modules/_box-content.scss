@@ -1,0 +1,204 @@
+.box-content-1 {
+  position: relative;
+
+  &:hover {
+    .box-content-1-overlay {
+      opacity: 0.8;
+    }
+  }
+
+  &-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+
+  &-overlay {
+    background: rgba(128,46,136,1);
+    background: -moz-linear-gradient(45deg, rgba(128,46,136,1) 0%, rgba(57,151,223,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(128,46,136,1)), color-stop(100%, rgba(57,151,223,1)));
+    background: -webkit-linear-gradient(45deg, rgba(128,46,136,1) 0%, rgba(57,151,223,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(128,46,136,1) 0%, rgba(57,151,223,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(128,46,136,1) 0%, rgba(57,151,223,1) 100%);
+    background: linear-gradient(45deg, rgba(128,46,136,1) 0%, rgba(57,151,223,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#802e88', endColorstr='#3997df', GradientType=1 );
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all .2s ease-in-out;
+  }
+
+  &-text {
+    h4 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    a {
+      font-size: 18px;
+      color: $text-color3;
+      line-height: 28px;
+      font-weight: 600;
+      @include hoverColor($accent-color);
+    }
+
+    p {
+      font-size: 12px;
+      color: $text-color1;
+    }
+  }
+}
+
+.box-content-2 {
+  @extend .box-content-1;
+
+  &-featured {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 30px;
+
+    a {
+      display: block;
+      color: $white-color;
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 5px;
+      @include hoverColor($accent-color);
+    }
+
+    p {
+      color: $text-color2;
+      font-size: 12px;
+    }
+  }
+}
+
+.box-content-3 {
+  position: relative;
+
+  &:hover {
+    .box-content-3-overlay {
+      opacity: 0.8;
+    }
+  }
+
+  &-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+
+  &-overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background: rgba(231,56,39,0);
+    background: -moz-linear-gradient(top, rgba(231,56,39,0) 0%, rgba(51,51,51,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(231,56,39,0)), color-stop(100%, rgba(51,51,51,1)));
+    background: -webkit-linear-gradient(top, rgba(231,56,39,0) 0%, rgba(51,51,51,1) 100%);
+    background: -o-linear-gradient(top, rgba(231,56,39,0) 0%, rgba(51,51,51,1) 100%);
+    background: -ms-linear-gradient(top, rgba(231,56,39,0) 0%, rgba(51,51,51,1) 100%);
+    background: linear-gradient(to bottom, rgba(231,56,39,0) 0%, rgba(51,51,51,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', endColorstr='#333333', GradientType=0 );
+    opacity: 0;
+    z-index: 1;
+    transition: all .2s ease-in-out;
+  }
+
+  &-text {
+    h4 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    a {
+      font-size: 18px;
+      color: $text-color3;
+      line-height: 28px;
+      font-weight: 600;
+      @include hoverColor($accent-color);
+    }
+
+    p {
+      font-size: 12px;
+      color: $text-color1;
+    }
+  }
+
+  &-featured {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    z-index: 10;
+
+    a {
+      display: block;
+      color: $white-color;
+      font-size: 24px;
+      line-height: 40px;
+      margin-bottom: 5px;
+      @include hoverColor($accent-color);
+    }
+
+    p {
+      color: $text-color2;
+      font-size: 12px;
+    }
+  }
+}
+
+.box-content-4 {
+  a {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.box-content-video {
+  &-wrap {
+    position: relative;
+    display: flex;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15px;
+
+      img:first-child {
+        width: 270px;
+        height: 170px;
+      }
+    }
+
+    .play-icon {
+      width: auto !important;
+      position: absolute;
+    }
+  }
+
+  h5 {
+    font-size: 14px;
+    line-height: 24px;
+    color: $white-color;
+    margin-bottom: 5px;
+    @include hoverColor($accent-color);
+  }
+
+  p {
+    color: $white-color;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+
+}

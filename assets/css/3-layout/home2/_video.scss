@@ -1,0 +1,30 @@
+.video {
+  background: $video-bg;
+  padding: 70px 0;
+
+  .title-line {
+    color: $white-color;
+  }
+
+  .line-1 {
+    border-color: #373737;
+
+    &:before {
+      border-color: $video-bg;
+    }
+  }
+
+  .carousel-6 {
+    .item {
+      width: 270px;
+      filter: brightness(40%);
+    }
+
+    .owl-item.active {
+      .item {
+        filter: brightness(100%);
+      }
+
+    }
+  }
+}
