@@ -1,0 +1,21 @@
+.home3-featured {
+  .box-content-1-overlay {
+    background: #162345; /* Old browsers */
+    background: -moz-linear-gradient(-125deg, #162345 0%, #ff3249 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-125deg, #162345 0%,#ff3249 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(-125deg, #162345 0%,#ff3249 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#162345', endColorstr='#ff3249',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+
+  .box-content-2-featured {
+    h4 a {
+      @include hoverColor($accent-color1);
+    }
+  }
+
+  .box-content-1-text {
+    h4 a {
+      @include hoverColor($accent-color1 );
+    }
+  }
+}

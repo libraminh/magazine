@@ -1,0 +1,79 @@
+.home3-topbar {
+  background: $topbar-bg3;
+}
+
+.home3-logo {
+  background: $logo-bg;
+  border-bottom: 1px solid #323232;
+
+  .wrap-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .breaking-news {
+    position: relative;
+    overflow: hidden;
+
+    .title {
+      position: absolute;
+      top: 50%;
+      left: 95px;
+      color: $white-color;
+      transform: translateY(-50%);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+
+    .carousel-7 {
+      position: absolute;
+      top: 50%;
+      left: 300px;
+      transform: translateY(-50%);
+
+      a {
+        font-size: 14px;
+        line-height: 24px;
+        color: $white-color;
+      }
+    }
+  }
+}
+
+.home3-menu {
+  background: $logo-bg;
+
+  .navbar {
+    background: $logo-bg !important;
+    padding: 10px 0;
+
+    .btn-search {
+      background: none !important;
+      color: $accent-color1;
+      font-size: 24px;
+      cursor: pointer;
+      border: none !important;
+
+      &:focus {
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+  }
+
+  .navbar-nav {
+    li {
+      margin-right: 70px;
+    }
+
+    a {
+      color: $white-color !important;
+      font-size: 13px;
+      line-height: 24px;
+      font-weight: 500;
+      padding: 0 !important;
+      @include hoverColor($accent-color1 !important);
+    }
+  }
+}

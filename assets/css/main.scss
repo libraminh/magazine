@@ -10,6 +10,8 @@
 @import "0-tools/animate.css";
 @import "0-tools/owl-carousel/owl.carousel.min.css";
 @import "0-tools/owl-carousel/owl.theme.default.css";
+@import "0-tools/slick/slick.css";
+@import "0-tools/slick/slick-theme.css";
 @import "0-tools/lightbox/magnific-popup.css";
 @import "0-tools/hover-direction/style.css";
 
@@ -24,10 +26,16 @@
    ----------------------------- */
 @import "2-modules/nice-select-filter";
 @import "2-modules/button";
+@import "2-modules/pagination";
 @import "2-modules/box-content";
 @import "2-modules/custom-nav";
 @import "2-modules/custom-media";
 @import "2-modules/connected";
+@import "2-modules/title-area";
+@import "2-modules/subscribe";
+@import "2-modules/social";
+@import "2-modules/special-slider";
+@import "2-modules/footer";
 
 
 /* IMPORT LAYOUT
@@ -44,6 +52,52 @@
   @import "3-layout/home2/hotgraphies-modern";
   @import "3-layout/home2/article";
   @import "3-layout/home2/video";
+  @import "3-layout/home2/subscribe";
+
+  /**** Home 3 ****/
+  @import "3-layout/home3/header";
+  @import "3-layout/home3/thumb";
+  @import "3-layout/home3/health";
+  @import "3-layout/home3/watch";
+  @import "3-layout/home3/break";
+  @import "3-layout/home3/featured";
+  @import "3-layout/home3/hot";
+  @import "3-layout/home3/subscribe";
+  @import "3-layout/home3/tech";
+
+  /**** Home 1 ****/
+  @import "3-layout/home1/header";
+  @import "3-layout/home1/slider";
+  @import "3-layout/home1/top-new";
+  @import "3-layout/home1/top-read";
+  @import "3-layout/home1/connected";
+  @import "3-layout/home1/must-read";
+  @import "3-layout/home1/top-global";
+  @import "3-layout/home1/watch";
+  @import "3-layout/home1/people";
+  @import "3-layout/home1/trending";
+  @import "3-layout/home1/hot-new";
+  @import "3-layout/home1/post-slider";
+  @import "3-layout/home1/latest";
+  @import "3-layout/home1/post-tag";
+  @import "3-layout/home1/footer";
+
+  /**** Home 4 ****/
+  @import "3-layout/home4/header";
+  @import "3-layout/home4/break-new";
+  @import "3-layout/home4/news";
+  @import "3-layout/home4/world";
+  @import "3-layout/home4/watch";
+  @import "3-layout/home4/asia";
+  @import "3-layout/home4/top-new";
+  @import "3-layout/home4/tech";
+  @import "3-layout/home4/investing";
+  @import "3-layout/home4/latest";
+  @import "3-layout/home4/subscribe-small";
+  @import "3-layout/home4/article";
+  @import "3-layout/home4/market";
+  @import "3-layout/home4/currency";
+
 
 /* IMPORT RESPONSIVE
    ----------------------------- */

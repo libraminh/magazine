@@ -1,0 +1,95 @@
+include jadefiles/global/head.jade
+|
+|
+body.home4-page
+  |
+  |
+  .home-wrap
+    include jadefiles/home4/header.jade
+    |
+    |
+    include jadefiles/home4/break-new.jade
+    |
+    |
+    include jadefiles/home4/news.jade
+    |
+    |
+    .home-sections
+      .container
+        .row
+          // Primary Column
+          .col-md-8.primary-col
+            include jadefiles/home4/global.jade
+            .Mb60
+            |
+            |
+            include jadefiles/home4/world.jade
+            .Mb60
+            |
+            |
+            include jadefiles/home4/watch.jade
+          |
+          |
+          // Sidebar Column
+          .col-md-4.sidebar-col
+            include jadefiles/home4/market.jade
+            |
+            |
+            .Mb50
+            include jadefiles/home4/ads-2.jade
+            |
+            |
+            .Mb50
+            include jadefiles/home4/new-business.jade
+    |
+    |
+    include jadefiles/home4/asia.jade
+    .container
+      .row.Py50
+        // Primary Column
+        .col-md-8.primary-col.Mb50
+          include jadefiles/home4/top-new.jade
+          .Mb50
+          |
+          |
+          include jadefiles/home4/gallery.jade
+        |
+        |
+        // Sidebar Column
+        .col-md-4.sidebar-col.Mb50
+          include jadefiles/home4/article.jade
+          .Mb50
+          |
+          |
+          include jadefiles/home4/currency.jade
+        |
+        |
+        .col-md-4
+          include jadefiles/home4/investing.jade
+        |
+        |  
+        .col-md-4
+          include jadefiles/home4/tech.jade
+        |
+        |
+        .col-md-4
+          include jadefiles/home4/latest.jade
+          |
+          |
+          .Mb50
+          include jadefiles/home1/connected.jade
+          |
+          |
+          .Mb50
+          include jadefiles/home4/subscribe-small.jade
+    |
+    |
+    footer.footer
+      include jadefiles/home1/footer.jade
+    
+  |        
+  |
+  |      
+  |
+  |
+  include jadefiles/global/footer.jade

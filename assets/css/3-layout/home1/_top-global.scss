@@ -1,0 +1,20 @@
+.home1-global {
+  .media-6 {
+    margin-bottom: 30px;
+  }
+
+  .media-2 {
+    margin-bottom: 20px;
+
+    img {
+      margin-right: 30px !important;
+    }
+
+    .media-body {
+      h5 {
+        font-size: 18px;
+        @include hoverColor($accent-color2);
+      }
+    }
+  }
+}

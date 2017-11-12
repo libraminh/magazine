@@ -1,0 +1,58 @@
+.title-area {
+  display: flex;
+  position: relative;
+
+  .wrap-title {
+    flex: 1;
+  }
+
+  .navbar-small {
+    position: absolute;
+    bottom: 32px;
+    right: 0;
+  }
+}
+
+
+// Navbar Small
+.navbar-small {
+  .navbar-small-ul {
+    margin: 10px 0;
+
+    li {
+      @extend %display-inline;
+      position: relative;
+    }
+
+    a {
+      font-size: 14px;
+      font-weight: 800;
+      line-height: 24px;
+      @extend %font-weight;
+      color: $text-color4;
+      padding: 0 5px;
+      transition: all .2s ease-in-out;
+
+      &:hover {
+        color: $accent-color1;
+      }
+    }
+
+    .dropdown-menu {
+
+      li {
+        display: block;
+        padding: 10px;
+      }
+
+      a {
+        padding: 5px 10px;
+        font-size: 12px;
+
+        &:hover {
+          background: none !important;
+        }
+      }
+    }
+  }
+}

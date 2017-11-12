@@ -1,0 +1,21 @@
+.home4-news {
+  .box-content-1-text {
+    h4 a {
+      @include hoverColor($accent-color2);
+    }
+  }
+
+  .carousel-5 {
+    @include colorOwlNav($accent-color2);
+  }
+
+  .right-news {
+    .box-wrap {
+      margin-bottom: 25px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

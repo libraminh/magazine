@@ -1,0 +1,90 @@
+include jadefiles/global/head.jade
+|
+|
+body.home3-page
+  |
+  |
+  .home-wrap
+    include jadefiles/home3/header.jade
+    |
+    |
+    include jadefiles/home3/thumb-news.jade
+    |
+    |
+    .home-sections
+      .container
+        .row
+          // Primary Column
+          .col-md-8.primary-col
+            include jadefiles/home3/health.jade
+          |
+          |
+          // Sidebar Column
+          .col-md-4.sidebar-col
+            include jadefiles/home3/ads-1.jade
+            .Mb50
+            |
+            |
+            include jadefiles/home3/connected.jade
+          |
+          |
+          .col-md-12
+            include jadefiles/home3/ads.jade
+          |
+          |
+          // Primary Column
+          .col-md-8.primary-col
+            include jadefiles/home3/watch.jade
+          |
+          |
+          // Sidebar Column
+          .col-md-4.sidebar-col
+            include jadefiles/home3/tech.jade
+    |
+    |
+    include jadefiles/home3/break.jade
+    .container
+      .row.Py50
+        // Primary Column
+        .col-md-8.primary-col.Mb50
+          include jadefiles/home3/featured.jade
+        |
+        |
+        // Sidebar Column
+        .col-md-4.sidebar-col.Mb50
+          include jadefiles/home3/hot.jade
+          |
+          |
+          .Mb50
+          include jadefiles/home3/ads-2.jade
+        |
+        |
+        
+        .col-md-4
+          include jadefiles/home3/investing.jade
+        |
+        |  
+        .col-md-4
+          include jadefiles/home3/bussiness.jade
+        |
+        |
+        .col-md-4
+          include jadefiles/home3/latest.jade
+          |
+          |
+          .Mb50
+          include jadefiles/home3/post-tag.jade
+    |
+    |
+    include jadefiles/home3/subscribe.jade
+    |
+    |
+    footer.footer
+      include jadefiles/home3/footer.jade
+    
+  |        
+  |
+  |      
+  |
+  |
+  include jadefiles/global/footer.jade

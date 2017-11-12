@@ -1,0 +1,37 @@
+.home1-header {
+  .home3-topbar {
+    background: $menu-bg2;
+  }
+
+  .home3-logo {
+    background: $white-color;
+    border: none;
+  }
+
+  .home3-menu {
+    background: $white-color;
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+
+    .navbar {
+      background: $white-color !important;
+
+      .btn-search {
+        color: $accent-color2;
+      }
+    }
+
+    .navbar-nav {
+      a {
+        font-weight: 600;
+        color: $text-color !important;
+        @include hoverColor($accent-color2 !important);
+      }
+    }
+  }
+
+  .breaking-news .carousel-7 a {
+    font-weight: 600;
+    color: $text-color7;
+  }
+}

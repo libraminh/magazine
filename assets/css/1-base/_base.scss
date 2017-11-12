@@ -1,6 +1,13 @@
 /* GLOBAL CSS
    ----------------------------- */
 
+/*** Set width of container div ***/
+@media (min-width: 1200px) {
+   .container{
+       max-width: 1200px;
+   }
+}
+
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -13,10 +20,40 @@ a {
 
 body {
   @include font('Montserrat');
+  @include scrollBar(10px, $accent-color);
+
+}
+
+.home-sections {
+  padding: 50px 0;
 }
 
 /* GLOBAL CLASS
    ----------------------------- */
+
+.metadata {
+  @include font('Roboto');
+  color: $text-color1 !important;
+
+  .line-divine {
+    margin: 0 8px;
+  }
+
+  a {
+    font-weight: 400 !important;
+    display: inline !important;
+    font-size: 12px !important;
+    line-height: 24px !important;
+    color: $text-color1 !important;
+  }
+}
+
+.metadata-1 {
+  @extend .metadata;
+  a {
+    color: $text-color2 !important;
+  }
+}
 
 .line-1 {
   border-bottom: 2px solid $border-color;
@@ -33,14 +70,6 @@ body {
     position: absolute;
     left: 0;
     bottom: -6px;
-
-    &:before {
-      display: block;
-      content: '';
-      width: 100px;
-      height: 5px;
-      background: red;
-    }
   }
 
   &:after {
@@ -48,7 +77,6 @@ body {
     content: '';
     width: 70px;
     height: 2px;
-    border-radius: 50%;
     background: $accent-color;
     position: absolute;
     left: 10px;
@@ -64,6 +92,84 @@ body {
   &:after {
     width: 40px;
   }
+}
+
+.line-3 {
+  @extend .line-1;
+  margin-bottom: 20px !important;
+  margin-top: 25px;
+
+  &:after {
+    left: 50% !important;
+    transform: translateX(-50%);
+    width: 150px;
+  }
+
+  &:before {
+    left: 50% !important;
+    z-index: 1;
+    border-color: $subscribe-bg;
+  }
+}
+
+.line-4 {
+  @extend .line-1;
+  &:after, &:before {
+    background-color: $accent-color1;
+  }
+}
+
+.line-5 {
+  @extend .line-2;
+
+  &:before, &:after {
+    background-color: $accent-color1;
+  }
+
+  &:before {
+    border-color: #f8f3f4;
+  }
+}
+
+.line-6 {
+  @extend .line-4;
+
+  &:after, &:before {
+    background-color: $accent-color2;
+  }
+}
+
+.line-7 {
+  @extend .line-2;
+
+  &:before, &:after {
+    background-color: $accent-color2;
+  }
+
+  &:before {
+    border-color: $white-color;
+  }
+}
+
+.line-8 {
+  @extend .line-2;
+
+  &:before, &:after {
+    background-color: $accent-color2;
+  }
+
+  &:before {
+    border-color: #f8f3f4;
+  }
+}
+
+.line-9 {
+  @extend .line-3;
+
+  &:before, &:after {
+    background: $accent-color2;
+  }
+
 }
 
 .title-line {
@@ -87,6 +193,22 @@ body {
   margin-bottom: 60px;
 }
 
+.Mt40 {
+  margin-top: 40px;
+}
+
 .My50 {
   margin: 50px 0;
+}
+
+.Pt50 {
+  padding-top: 50px;
+}
+
+.Py50 {
+  padding: 50px 0;
+}
+
+.Py60 {
+  padding: 60px 0;
 }

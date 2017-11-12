@@ -1,0 +1,58 @@
+.home3-watch {
+  .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto !important;
+  }
+
+  .carousel-9 {
+    .owl-next, .owl-prev {
+      &:hover {
+        background: $accent-color1 !important;
+      }
+    }
+  }
+
+  .box-content-2 {
+    .box-content-1-overlay {
+      display: none;
+    }
+
+    .box-content-2-featured {
+      h4 a {
+        font-size: 24px;
+        @include hoverColor($accent-color1);
+      }
+    }
+  }
+
+  .wrap-box-content {
+    margin-top: 30px;
+    flex: 1;
+    margin-right: 30px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .box-content-5 {
+    img {
+      width: 170px;
+      height: 100px;
+    }
+  }
+
+  .box-content-5-text {
+    h4 a {
+      display: block;
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 24px;
+      color: $text-color3;
+      @include hoverColor($accent-color1);
+    }
+  }
+}

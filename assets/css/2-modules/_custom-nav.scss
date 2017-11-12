@@ -21,3 +21,75 @@
     background: $accent-color !important;
   }
 }
+
+.custom-nav-1 {
+  .owl-nav {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 0;
+  }
+
+  .owl-prev, .owl-next {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    width: 60px;
+    height: 60px;
+    border-radius: 0 !important;
+    position: absolute;
+    bottom: 140px;
+    background: rgba(#131313, 0.7) !important;
+
+    i {
+      font-size: 24px;
+    }
+  }
+
+  .owl-prev {
+    left: 0;
+  }
+
+  .owl-next {
+    right: 0;
+  }
+
+  .owl-nav [class*='owl-']:hover {
+    transition: all .2s ease-in-out;
+    background: $accent-color2 !important;
+  }
+}
+
+.custom-nav-2 {
+  @extend .custom-nav;
+
+  .owl-nav {
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    top: auto;
+    right: auto;
+    border-bottom: 1px solid $border-color;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .owl-next, .owl-prev {
+    text-align: center;
+
+    &:hover {
+      background: $accent-color1 !important;
+    }
+  }
+}
+
+.custom-nav-accent2 {
+  @extend .custom-nav;
+
+  .owl-nav [class*='owl-']:hover {
+    background: $accent-color2 !important;
+  }
+}

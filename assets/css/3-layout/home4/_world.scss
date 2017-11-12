@@ -1,0 +1,21 @@
+.home4-world {
+  .box-content-1-text {
+    h4 a {
+      @include hoverColor($accent-color2);
+    }
+  }
+
+  .navbar-small-ul {
+    a {
+      @include hoverColor($accent-color2);
+    }
+  }
+
+  .media-body {
+    h5 {
+      font-size: 14px;
+      font-weight: 800;
+      line-height: 24px;
+    }
+  }
+}

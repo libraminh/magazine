@@ -1,0 +1,41 @@
+.home3-health {
+  .carousel-8 {
+    .media-object {
+      width: auto;
+    }
+
+    .item {
+      padding-bottom: 15px; 
+    }
+
+    .owl-nav {
+      bottom: 0;
+      left: 0;
+      top: auto;
+      right: auto;
+      border-bottom: 1px solid $border-color;
+      width: 100%;
+      text-align: left;
+      padding-bottom: 10px;
+    }
+
+    .owl-next, .owl-prev {
+      text-align: center;
+
+      &:hover {
+        background: $accent-color1 !important;
+      }
+    }
+  }
+  .box-content-1 {
+    &-overlay {
+      display: none;
+    }
+  }
+
+  .box-content-1-text {
+    h4 a {
+      @include hoverColor($accent-color1);
+    }
+  }
+}

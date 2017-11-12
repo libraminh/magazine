@@ -1,0 +1,7 @@
+.home1-latest {
+  .media-body {
+    h5 {
+      @include hoverColor($accent-color2);
+    }
+  }
+}

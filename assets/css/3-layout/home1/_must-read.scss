@@ -1,0 +1,13 @@
+.home3-mustread {
+  .box-content-1-text {
+    a {
+      @include hoverColor($accent-color2 !important);
+    }
+  }
+
+  .media-body {
+    h5 {
+      @include hoverColor($accent-color2 !important);
+    }
+  }
+}

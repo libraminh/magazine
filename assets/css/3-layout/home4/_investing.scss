@@ -1,0 +1,13 @@
+.home4-investing {
+  .media-body {
+    h5 {
+      @include hoverColor($accent-color2);
+    }
+  }
+
+  .box-content-1-text {
+    h4 a {
+      @include hoverColor($accent-color2);
+    }
+  }
+}

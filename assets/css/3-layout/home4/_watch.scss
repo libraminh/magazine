@@ -1,0 +1,13 @@
+.home4-watch {
+  .box-content-2-featured, .box-content-5-text {
+    h4 a {
+      @include hoverColor($accent-color2 !important);
+    }
+  }
+
+  .box-content-5-text {
+    h4 a {
+      font-weight: 800;
+    }
+  }
+}

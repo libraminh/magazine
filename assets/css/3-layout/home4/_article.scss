@@ -1,0 +1,7 @@
+.home4-article {
+  .article-list {
+    a {
+      @include hoverColor($accent-color2);
+    }
+  }
+}

@@ -1,3 +1,12 @@
+.box-wrap {
+  .top-rate-content {
+    font-size: 14px;
+    line-height: 24px;
+    color: $text-color4;
+    @include font('Roboto');
+  }
+}
+
 .box-content-1 {
   position: relative;
 
@@ -12,6 +21,10 @@
     top: 0;
     left: 0;
     z-index: 3;
+
+    a {
+      font-size: 10px !important;
+    }
   }
 
   &-overlay {
@@ -42,7 +55,7 @@
       font-size: 18px;
       color: $text-color3;
       line-height: 28px;
-      font-weight: 600;
+      font-weight: 800;
       @include hoverColor($accent-color);
     }
 
@@ -51,6 +64,7 @@
       color: $text-color1;
     }
   }
+  
 }
 
 .box-content-2 {
@@ -81,11 +95,11 @@
 .box-content-3 {
   position: relative;
 
-  &:hover {
-    .box-content-3-overlay {
-      opacity: 0.8;
-    }
-  }
+  // &:hover {
+  //   .box-content-3-overlay {
+  //     opacity: 0.8;
+  //   }
+  // }
 
   &-type {
     position: absolute;
@@ -108,7 +122,7 @@
     background: -ms-linear-gradient(top, rgba(231,56,39,0) 0%, rgba(51,51,51,1) 100%);
     background: linear-gradient(to bottom, rgba(231,56,39,0) 0%, rgba(51,51,51,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', endColorstr='#333333', GradientType=0 );
-    opacity: 0;
+    opacity: 1;
     z-index: 1;
     transition: all .2s ease-in-out;
   }
@@ -157,9 +171,35 @@
 }
 
 .box-content-4 {
-  a {
-    font-size: 18px;
-    line-height: 28px;
+  .box-content-3-featured {
+    a {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+  .metadata {
+    .line-divine {
+      margin: 0 5px;
+    }
+  }
+}
+
+.box-content-6 {
+  margin-bottom: 25px;
+
+  .box-content-1-text {
+    h6 {
+      font-size: 10px;
+      line-height: 24px;
+      color: $accent-color2;
+      font-weight: 600;
+      margin: 10px 0 0px;
+    }
+
+    h4 {
+      margin: 0;
+    }
   }
 }
 
@@ -199,6 +239,16 @@
     font-size: 12px;
     line-height: 24px;
   }
+}
 
-
+.box-content-5 {
+  .box-content-1-text {
+    h4 a {
+      color: $text-color3;
+      font-size: 14px;
+      font-weight: 800;
+      line-height: 0 !important;
+      @include hoverColor($accent-color2);
+    }
+  }
 }

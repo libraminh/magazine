@@ -1,0 +1,27 @@
+.home1-topread {
+  .box-content-4 {
+    .box-content-3-featured {
+      h4 a {
+        font-size: 24px;
+        line-height: 34px;
+        @include hoverColor($accent-color2);
+      }
+    }
+  }
+
+  .media {
+    margin-bottom: 22px;
+  }
+
+  .media-body {
+    h6 {
+      color: $accent-color2;
+    }
+
+    h5 {
+      font-size: 18px;
+      line-height: 24px;
+      @include hoverColor($accent-color2);
+    }
+  }
+}

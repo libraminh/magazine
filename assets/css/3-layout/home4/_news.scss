@@ -1,0 +1,30 @@
+.news-home4 {
+  background: $white-color;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+
+  .news-box {
+    background: $accent-color2;
+  }
+
+  .news-slider {
+    .item a {
+      color: $text-color4;
+      font-weight: 600;
+    }
+  }
+
+  .owl-prev {
+    border-right: 1px solid  #ededed;
+  }
+
+  .owl-next, .owl-prev {
+    background: #fdfdfd !important;
+    color: $text-color5 !important;
+    font-size: 20px !important;
+
+    &:hover {
+      background: #fcfcfc !important;
+    }
+  }
+}

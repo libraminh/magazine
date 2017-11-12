@@ -1,0 +1,48 @@
+.home3-subscribe {
+  background: url('../img/home3/subscribe-bg.png') no-repeat center;
+  background-size: cover;
+  padding: 60px 0;
+
+  .line-transform {
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: left;
+    left: 15px;
+    top: -12px;
+  }
+
+  .wrap-subscribe {
+    padding-left: 10px;
+
+    h4 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: $text-color3;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 500;
+      color: $text-color4;
+      @include font('Roboto');
+    }
+  }
+
+  .form-control {
+    border-radius: 0;
+    border: none;
+    font-size: 14px;
+    color: $text-color;
+    @include placeholderColor($text-color);
+  }
+
+  .btn-accent-1 {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 0;
+  }
+}

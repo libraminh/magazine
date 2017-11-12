@@ -1,0 +1,18 @@
+.home1-trending {
+  .btn-accent-2 {
+    font-size: 14px;
+    padding: 7px 15px;
+  }
+
+  .wrap-btn {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .media-body {
+    h5 {
+      @include hoverColor($accent-color2);
+    }
+  }
+}

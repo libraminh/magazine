@@ -1,0 +1,31 @@
+// SPECIAL SLIDER
+.slider-1 {
+  display: flex;
+
+  .wrap-slider {
+    width: 90%;
+  }
+
+  .gallery-slick {
+    margin-right: 8px;
+  }
+
+  .gallery-control {
+    // height: 100% !important;
+
+    .slick-list  {
+      // height: 100% !important;
+    }
+
+    .slick-track {
+      // height: 100% !important;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .slide {
+      flex: 1;
+      margin-bottom: 8px;
+    }
+  }
+}

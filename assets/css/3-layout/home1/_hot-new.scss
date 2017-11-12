@@ -1,0 +1,13 @@
+.home1-hot {
+  .box-content-1-text {
+    h4 a {
+      font-size: 14px;
+      line-height: 24px;
+      @include hoverColor($accent-color2);
+    }
+  }
+
+  .box-1-wrap {
+    margin-bottom: 25px;
+  }
+}

@@ -1,0 +1,55 @@
+.home1-header.home4-header
+  // section topbar
+  section.topbar.home4-topbar
+    .container
+      .row
+        .col-md-6
+          p.text-uppercase WELCOME TO MONMAG
+        |
+        |  
+        .col-md-6
+          p
+            a(href="login.html") Login
+            span |
+            a(href="login.html") Register
+  |
+  |
+  section.home3-logo
+    .container
+      .wrap-logo.d-flex.justify-content-between
+        a(href="#"): img(src="assets/img/home1/header/logo.png", alt="")
+        |
+        |
+        .breaking-news
+          a(href="#")
+            img(src="assets/img/home4/ads/ads_03.png", alt="")
+        
+  |
+  |
+  section.home3-menu
+    .container
+      nav.navbar.navbar-expand-lg.navbar-light.bg-light
+        |   
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        |   
+        #navbarSupportedContent.collapse.navbar-collapse
+          ul.navbar-nav.mr-auto.text-uppercase
+            li.nav-item.active
+              a.nav-link(href='#')
+                | HOMEPAGES 
+                span.sr-only (current)
+            |       
+            li.nav-item
+              a.nav-link(href='#') OTHERPAGES  
+            li.nav-item
+              a.nav-link(href='#') MEGAMENU 
+            li.nav-item
+              a.nav-link(href='#') ABOUT
+            li.nav-item
+              a.nav-link(href='#') CONTACT
+    
+          |     
+          form.form-inline.my-2.my-lg-0
+            button.btn.btn-search(type='submit')
+              i.fa.fa-search(aria-hidden='true')

@@ -1,0 +1,37 @@
+.home4-currency {
+  .currency-table {
+    thead {
+      th {
+        color: $text-color10;
+        font-size: 14px;
+      }
+    }
+
+    tbody {
+      @include font('Roboto');
+    }
+
+    tr {
+      td {
+        font-size: 14px;
+        font-weight: 500;
+
+        &:nth-child(1) {
+          color: $text-color4;
+        }
+
+        &:nth-child(2) {
+          color: $text-color11;
+        }
+
+        &:nth-child(3) {
+          color: $text-color12;
+        }
+      }
+    }
+  }
+
+  .borderless td, .borderless th {
+      border: none;
+  }
+}

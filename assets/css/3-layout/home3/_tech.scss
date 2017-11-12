@@ -1,0 +1,7 @@
+.home3-tech {
+  .media-body {
+    h5 {
+      @include hoverColor($accent-color1);
+    }
+  }
+}

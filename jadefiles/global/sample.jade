@@ -1,13 +1,19 @@
 //- BOX CONTENT
-.box-content-1
-  .box-content-1-type
-    a.btn.btn-type.text-uppercase(href="#") FASHION
-  img.w-100(src="assets/img/home2/featured/featured_06.png", alt="")
-  a(href="#").box-content-1-overlay
-.box-content-1-text
-  h4
-    a(href="#") Caroline Herschel Shares Adorable Pic of Her Kids Headed Off to School
-  p MONMAG   |   June 27, 2017   |   42 Views
+.box-wrap
+  .box-content-1
+    .box-content-1-type
+      a.btn.btn-type.text-uppercase(href="#") FASHION
+    img.w-100(src="assets/img/home2/featured/featured_06.png", alt="")
+    a(href="#").box-content-1-overlay
+  .box-content-1-text
+    h4
+      a(href="#") Caroline Herschel Shares Adorable Pic of Her Kids Headed Off to School
+    p.metadata-1 
+      a(href="#") MONMAG
+      span.line-divine |
+      a(href="#") June 27, 2017
+      span.line-divine |
+      a(href="#") 42 Views
   
 .box-content-1.box-content-2
   .box-content-1-type
@@ -17,7 +23,12 @@
   .box-content-2-featured
     h4
       a(href="#") Lucy Continues to Slay in New Pregnancy Pics See the All-Black Look!
-    p MONMAG   |   June 27, 2017   |   42 Views
+    p.metadata
+      a(href="#") MONMAG
+      span.line-divine |
+      a(href="#") June 27, 2017
+      span.line-divine |
+      a(href="#") 42 Views
   
 .box-content-3
   .box-content-3-type
@@ -27,7 +38,12 @@
   .box-content-3-featured
     h4
       a(href="#") Helen Cancel North American Tour Following Bassist Kevan Lucia's Death
-    p MIEMAG   |   June 27, 2017   |   42 Views  
+    p.metadata-1 
+      a(href="#") MONMAG
+      span.line-divine |
+      a(href="#") June 27, 2017
+      span.line-divine |
+      a(href="#") 42 Views
     
 .box-content-3.box-content-4
   img.w-100(src="assets/img/home2/movie/movie_03.png", alt="")
@@ -35,8 +51,65 @@
   .box-content-3-featured
     h4
       a(href="#") 'May the Fourth' be with these action figures on Star Wars Day
-    p MIEMAG   |   June 27, 2017   |   42 Views
+    p.metadata
+      a(href="#") MONMAG
+      span.line-divine |
+      a(href="#") June 27, 2017
+      span.line-divine |
+      a(href="#") 42 Views
 
+.box-content-5
+  .box-content-1
+    a(href="#")
+      img.w-100(src="assets/img/home1/people/people_06.png", alt="")
+  .box-content-1-text
+    h4
+      a(href="#") Kim Jong Un Oversees Military Parade
+      
+.box-content-5.box-content-6
+  .box-content-1
+    a(href="#")
+      img.w-100(src="assets/img/home4/global/global_19.png", alt="")
+  .box-content-1-text
+    a(href="#"): h6.text-uppercase COMPANIES
+    h4
+      a(href="#") Kim Jong Un Oversees Military Parade
+
+.box-content-video
+  .box-content-video-wrap
+    a(href="#")
+      img(src="assets/img/home2/video/video_03.png", alt="")
+      img.play-icon(src="assets/img/home2/video/play-icon.png", alt="")
+    
+  a(href="#"): h5 La La Land skewered in honest trailer
+  p.metadata-1
+    a(href="#") June 27, 2017
+    span.line-divine |
+    a(href="#") 12 Views
+    
+//- TITLE AREA
+.title-area
+  .wrap-title
+    h4.title-line.text-uppercase HEALTH CARE
+    .line-4.Mb40
+  |
+  |
+  nav.navbar-small
+    ul.navbar-small-ul.list-unstyled.text-uppercase
+      li: a(href="#") ALL
+      li: a(href="#") SOFTWARE
+      li: a(href="#") OPINION
+      li: a(href="#") TREND
+      li.nav-item.dropdown
+        a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          | more 
+        |         
+        .dropdown-menu(aria-labelledby='navbarDropdown')
+          a.dropdown-item(href='#') Action
+          |           
+          a.dropdown-item(href='#') Another action
+          |           
+          a.dropdown-item(href='#') Something else here
 
 //- MEDIA BOX
 .media.media-1
@@ -45,3 +118,37 @@
   .media-body
     a(href="#"): h5.mt-0 ‘Impotent fury and sadness’ after shut down
     p MONMAG   |   June 26, 2017   |   92 Views
+
+.media.media-2
+  a(href="#"): img.mr-3(src='assets/img/home2/latest/latest_06.png', alt='Generic placeholder image')
+  |   
+  .media-body
+    a(href="#"): h5.mt-0 Movie Madonna is furious about but powerless to stop
+    p MONMAG   |   June 26, 2017   |   92 Views
+    
+.media.media-4
+  a(href="#")
+    a.btn.btn-type.media-type.text-uppercase(href="#") Star
+    a(href="#"): img.mr-3(src='assets/img/home2/star-new/star_05.png', alt='Generic placeholder image')
+  |   
+  .media-body
+    a(href="#"): h5.mt-0 Kylie and Guy reunited as suburban swingers
+    p MONMAG   |   June 26, 2017   |   92 Views
+    
+.media-6
+  .col-md-6
+    a(href="#")
+      a.btn.btn-type.media-type.text-uppercase(href="#") lifestyle
+      a(href="#"): img.w-100(src='assets/img/home1/top-global/global_03.png', alt='Generic placeholder image')
+          
+  .col-md-6   
+    .media-body
+      a(href="#"): h5.mt-0 Are New Budget Flights Between the U.S. and Europe Really a Bargain?
+      p.metadata
+        a(href="#") MONMAG
+        span.line-divine |
+        a(href="#") June 26, 2017
+        span.line-divine |
+        a(href="#") 92 Views
+      .line-2
+      p.media-content South Korea’s foreign minister says he's confident that the U.S. will consult Seoul before taking action against North Korea. Satellite imagery analyzed by U.S. researchers shows activity on and ...

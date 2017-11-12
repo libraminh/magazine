@@ -1,0 +1,13 @@
+.home1-slider {
+  .carousel-10 {
+    padding: 20px;
+  }
+
+  .box-content-3-featured {
+    h4 a {
+      font-size: 30px;
+      line-height: 40px;
+      @include hoverColor($accent-color2);
+    }
+  }
+}

@@ -58,17 +58,35 @@ body.home2-page
       |
       |
       include jadefiles/home2/video.jade
-      
-          
-            
-      
-          
-          
+      |
+      |
+      include jadefiles/home2/star-new.jade
+      |
+      |
+      .container
+        .row
+          // Primary Column
+          .col-md-8.primary-col.My50
+            include jadefiles/home2/latest-article.jade
+          |
+          |
+          // Sidebar Column
+          .col-md-4.sidebar-col.My50
+            include jadefiles/home2/ads-2.jade
+            |
+            |
+            include jadefiles/home2/subscribe.jade
+            |
+            |
+            include jadefiles/home2/post-tag.jade
+    |
+    |
+    footer.footer
+      include jadefiles/footer.jade
     
   |        
   |
   |      
-  div(style="height: 1000px")  
   |
   |
   include jadefiles/global/footer.jade

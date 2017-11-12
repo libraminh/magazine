@@ -1,0 +1,44 @@
+.home4-break {
+  background: $grey-bg;
+  padding: 60px 0;
+  
+  .break-all {
+    display: flex;
+
+    .break-wrap {
+      flex: 1;
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .break-wrap-small {
+      display: flex;
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .box-content-3 {
+      flex: 1;
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .box-content-3-featured {
+        h4 a {
+          font-size: 18px;
+          line-height: 28px;
+          font-weight: 600;
+          @include hoverColor($accent-color2);
+        }
+      }
+    }
+  }
+}
