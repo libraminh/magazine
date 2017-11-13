@@ -1,0 +1,13 @@
+.home5-ad-content {
+    .custom-nav {
+        @include colorOwlNav($accent-color3);
+    }
+
+    .box-content-1-text {
+        h4 a {
+            font-size: 14px;
+            line-height: 24px;
+            @include hoverColor($accent-color3);
+        }
+    }
+}

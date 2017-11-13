@@ -1,0 +1,7 @@
+.home5-destination {
+    margin: 50px 0;
+    
+    .carousel-destination {
+        @include colorOwlNav($accent-color3);
+    }
+}

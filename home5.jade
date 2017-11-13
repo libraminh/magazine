@@ -1,0 +1,81 @@
+include jadefiles/global/head.jade
+|
+|
+body.home5-page
+  |
+  |
+  .home-wrap
+    include jadefiles/home5/header.jade
+    |
+    |
+    include jadefiles/home5/video-list.jade
+    |
+    |
+    .home-sections
+      .container
+        .row
+          // Primary Column
+          .col-md-8.primary-col
+            include jadefiles/home5/today.jade
+            .Mb50
+            |
+            |
+            include jadefiles/home5/most-view.jade
+          |
+          |
+          // Sidebar Column
+          .col-md-4.sidebar-col
+            include jadefiles/home5/connected.jade
+            .Mb50
+            |
+            |
+            include jadefiles/home5/popular.jade
+          |
+          |
+          .col-md-12
+            include jadefiles/home5/destination.jade
+    |
+    |
+    include jadefiles/home5/playlist.jade
+    .Mb50
+    |
+    |
+    include jadefiles/home5/movie.jade
+    .Mb50
+    |
+    |
+    include jadefiles/home5/music.jade
+    .container
+      .row.Py50
+        // Primary Column
+        .col-md-8.primary-col.Mb50
+          include jadefiles/home5/last-video.jade
+        |
+        |
+        // Sidebar Column
+        .col-md-4.sidebar-col.Mb50
+          include jadefiles/home5/post-slider.jade
+          |
+          |
+          .Mb50
+          include jadefiles/home5/hot-new.jade
+        |
+        |
+        .col-md-12
+          include jadefiles/home5/ads.jade
+          .Mb50
+        |
+        |
+        .col-md-12
+          include jadefiles/home5/ad-content.jade
+    |
+    |
+    include jadefiles/home5/subscribe.jade
+    |
+    |
+    footer.footer
+      include jadefiles/home5/footer.jade
+  |      
+  |
+  |
+  include jadefiles/global/footer.jade

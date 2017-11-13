@@ -169,7 +169,26 @@ body {
   &:before, &:after {
     background: $accent-color2;
   }
+}
 
+.line-10 {
+    @extend .line-6;
+
+    &:after, &:before {
+        background-color: $accent-color3;
+    }
+}
+
+.line-11 {
+  @extend .line-2;
+
+  &:before, &:after {
+    background-color: $accent-color3;
+  }
+
+  &:before {
+    border-color: #f8f3f4;
+  }
 }
 
 .title-line {
@@ -177,8 +196,16 @@ body {
   font-weight: 700;
 }
 
+.M0 {
+  margin: 0;
+}
+
 .Mb20 {
   margin-bottom: 20px;
+}
+
+.Mb30 {
+  margin-bottom: 30px;
 }
 
 .Mb40 {

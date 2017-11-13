@@ -57,8 +57,18 @@ $(function(){
   });
 
   $(function() {
-    $(".home1-page, .home4-page").niceScroll({
+    $(".home1-page, .home4-page, .category1-page, .category2-page").niceScroll({
       cursorcolor:"#51aff7",
+      cursorwidth: '10px',
+      cursorborder: '0px',
+      zindex: 10,
+      scrollspeed: 100
+    });
+  });
+
+  $(function() {
+    $(".home5-page").niceScroll({
+      cursorcolor:"#ffb10a",
       cursorwidth: '10px',
       cursorborder: '0px',
       zindex: 10,
@@ -104,6 +114,62 @@ function activeCarousel() {
       },
       1000:{
           items:6,
+          dots: false,
+      },
+    }
+  });
+
+  $('.carousel-destination').owlCarousel({
+    items: 1,
+    autoplay: true,
+    autoplayTimeout: 6000,
+    margin: 1,
+    loop: true,
+    nav: true,
+    dots: false,
+    center: false,
+    navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    responsive:{
+      0:{
+        items:1,
+        stagePadding: 0,
+      },
+      768:{
+          margin: 10,
+          stagePadding: 50,
+          items:1,
+      },
+      1000:{
+          items:4,
+          margin: 30,
+          dots: false,
+      },
+    }
+  });
+
+  $('.carousel-adcontent').owlCarousel({
+    items: 1,
+    autoplay: true,
+    autoplayTimeout: 6000,
+    margin: 1,
+    loop: true,
+    nav: true,
+    dots: false,
+    center: false,
+    navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    responsive:{
+      0:{
+        items:1,
+        stagePadding: 0,
+      },
+      768:{
+          margin: 10,
+          stagePadding: 50,
+          items:1,
+      },
+      1000:{
+          items:6,
+          margin: 30,
           dots: false,
       },
     }

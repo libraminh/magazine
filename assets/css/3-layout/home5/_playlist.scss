@@ -1,0 +1,29 @@
+.home5-playlist {
+    background: $menu-bg2;
+    padding: 60px 0;
+
+    .title-line {
+        color: $white-color;
+    }
+
+    .line-10 {
+        border-color: #353535;
+
+        &::before {
+            border-color: $menu-bg2;
+        }
+    }
+
+    .box-content-3-featured {
+        h4 a {
+            @include hoverColor($accent-color3);
+        }
+    }
+
+    .media-body {
+        h5 {
+            color: $white-color;
+            @include hoverColor($accent-color3);
+        }
+    }
+}

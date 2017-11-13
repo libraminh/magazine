@@ -91,3 +91,23 @@
     background: darken($accent-color2, 10%);
   }
 }
+
+.btn-accent-3 {
+  @extend .btn-accent-1;
+  background: $accent-color3;
+
+  &:hover {
+    color: $white-color;
+    background: darken($accent-color3, 5%);
+  }
+}
+
+.btn-black {
+  @extend .btn-accent-2;
+  background: $menu-bg2;
+
+  &:hover {
+    color: $white-color;
+    background: $menu-bg2;
+  }
+}

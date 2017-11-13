@@ -35,6 +35,8 @@
 @import "2-modules/subscribe";
 @import "2-modules/social";
 @import "2-modules/special-slider";
+@import "2-modules/category-nav";
+@import "2-modules/breadcrumb";
 @import "2-modules/footer";
 
 
@@ -53,6 +55,7 @@
   @import "3-layout/home2/article";
   @import "3-layout/home2/video";
   @import "3-layout/home2/subscribe";
+  @import "3-layout/home2/latest-article";
 
   /**** Home 3 ****/
   @import "3-layout/home3/header";
@@ -98,6 +101,24 @@
   @import "3-layout/home4/market";
   @import "3-layout/home4/currency";
 
+  /**** Home 5 ****/
+  @import "3-layout/home5/header";
+  @import "3-layout/home5/video-list";
+  @import "3-layout/home5/today";
+  @import "3-layout/home5/most-view";
+  @import "3-layout/home5/destination";
+  @import "3-layout/home5/connected";
+  @import "3-layout/home5/popular";
+  @import "3-layout/home5/playlist";
+  @import "3-layout/home5/movie";
+  @import "3-layout/home5/last-video";
+  @import "3-layout/home5/post-slider";
+  @import "3-layout/home5/hot-new";
+  @import "3-layout/home5/ad-content";
+  @import "3-layout/home5/footer";
+
+  /**** Category ****/
+  @import "3-layout/category/main-content";
 
 /* IMPORT RESPONSIVE
    ----------------------------- */

@@ -1,0 +1,32 @@
+.breadcrumb {
+    margin: 0;
+}
+
+.breadcrumb-wrap {
+    height: 50px;
+    background: #f9f9f9;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-1 {
+    background: #f9f9f9;
+    padding: 0 !important;
+
+    a {
+        font-size: 12px;
+        color: $text-color;
+    }
+
+    li {
+        font-size: 12px;
+        font-weight: 600;
+        color: $text-color;
+    }
+
+
+
+    .breadcrumb-item+.breadcrumb-item::before {
+        content: '.';
+    }
+}

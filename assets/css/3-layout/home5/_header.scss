@@ -1,0 +1,29 @@
+.home5-header {
+    .topbar {
+        background: $black-bg;
+    }
+
+    .menu {
+        border-bottom: 1px solid $border-color;
+        background: $white-color;
+
+        .navbar {
+            background: $white-color !important;
+
+            .search-btn i {
+                color: $accent-color3;
+            }
+        }
+
+        .navbar-nav {
+            li.active a {
+                color: $accent-color3 !important;
+            }
+
+            a {
+                color: $text-color4 !important;
+                @include hoverColor($accent-color3 !important);
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.home5-popular {
+    .box-content-1-text {
+        h4 a {
+            @include hoverColor($accent-color3);
+        }
+    }
+
+    .media-body {
+        h5 {
+            @include hoverColor($accent-color3);
+        }
+    }
+}
