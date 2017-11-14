@@ -20,11 +20,14 @@
 @import "1-base/vars";
 @import "1-base/mixin";
 @import "1-base/base";
+@import "1-base/global-css";
+
 
 
 /* IMPORT COMPONENTS
    ----------------------------- */
 @import "2-modules/nice-select-filter";
+@import "2-modules/select";
 @import "2-modules/button";
 @import "2-modules/pagination";
 @import "2-modules/box-content";
@@ -37,6 +40,7 @@
 @import "2-modules/special-slider";
 @import "2-modules/category-nav";
 @import "2-modules/breadcrumb";
+@import "2-modules/select";
 @import "2-modules/footer";
 
 
@@ -128,6 +132,9 @@
 
   /**** Category 8 ****/
   @import "3-layout/category8/main-content";
+
+  /**** Author list ****/
+  @import "3-layout/author-list/main-content";
 
 /* IMPORT RESPONSIVE
    ----------------------------- */

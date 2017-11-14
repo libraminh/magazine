@@ -1,0 +1,77 @@
+.author-list-content {
+    .author-list-wrap {
+        margin-bottom: 40px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        h4 {
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 24px;
+            color: $text-color3;
+            transition: all .2s ease-in-out;
+        }
+
+        &:hover {
+            h4 {
+                color: $accent-color2;
+            }
+
+            .line-1 {
+                border-color: $accent-color2;
+
+                &:before {
+                    background: $accent-color2;
+                }
+            }
+        }
+    }
+
+    .author-list-text {
+        font-size: 14px;
+        line-height: 24px;
+        color: $text-color4;
+        @include font('Roboto');
+        margin: 20px 0;
+    }
+
+    .author-list-contact {
+        color: $text-color7;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    .author-list-nav {
+        li {
+            margin-bottom: 10px;
+
+            img {
+                margin-right: 20px;
+            }
+
+            span {
+                font-size: 14px;
+                color: $text-color7;
+                @include font('Roboto');
+            }
+        }
+    }
+
+    .line-1 {
+        transform: rotateY(180deg);
+        transition: all .2s ease-in-out;
+
+        &:after {
+            display: none;
+        }
+
+        &:before {
+            transition: all .2s ease-in-out;
+            background: $border-color;
+        }
+    }
+}

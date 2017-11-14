@@ -4,6 +4,8 @@ $(function(){
   // niceSelectFilter();
   activeCarousel();
 
+  $('.author-select').niceSelect();
+
   $(".gallery-control").slick({
     infinite: true,
     dots: false,

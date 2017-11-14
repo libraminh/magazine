@@ -1,66 +1,5 @@
-/* GLOBAL CSS
-   ----------------------------- */
-
-/*** Set width of container div ***/
-@media (min-width: 1200px) {
-   .container{
-       max-width: 1200px;
-   }
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
-
-a {
-  &:hover {
-    text-decoration: none !important;
-  }
-}
-
-body {
-  @include font('Montserrat');
-  @include scrollBar(10px, $accent-color);
-
-}
-
-.home-sections {
-  padding: 50px 0;
-}
-
-.play-icon-1, .volume-icon {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-
 /* GLOBAL CLASS
    ----------------------------- */
-
-.metadata {
-  @include font('Roboto');
-  color: $text-color1 !important;
-
-  .line-divine {
-    margin: 0 8px;
-  }
-
-  a {
-    font-weight: 400 !important;
-    display: inline !important;
-    font-size: 12px !important;
-    line-height: 24px !important;
-    color: $text-color1 !important;
-  }
-}
-
-.metadata-1 {
-  @extend .metadata;
-  a {
-    color: $text-color2 !important;
-  }
-}
-
 .line-1 {
   border-bottom: 2px solid $border-color;
   position: relative;
@@ -228,6 +167,10 @@ body {
 
 .Mt40 {
   margin-top: 40px;
+}
+
+.Mt20 {
+  margin-top: 20px;
 }
 
 .My50 {
