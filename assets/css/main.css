@@ -414,6 +414,8 @@ input.nice-select-filter {
 }
 
 .btn-black {
+  font-size: 14px !important;
+  padding: 7px 15px !important;
   background: #212121;
 }
 
@@ -471,11 +473,11 @@ input.nice-select-filter {
   font-family: "Roboto", sans-serif;
 }
 
-.box-content-1, .box-content-2 {
+.box-content-1, .box-content-2, .box-content-8 {
   position: relative;
 }
 
-.box-content-1:hover .box-content-1-overlay, .box-content-2:hover .box-content-1-overlay {
+.box-content-1:hover .box-content-1-overlay, .box-content-2:hover .box-content-1-overlay, .box-content-8:hover .box-content-1-overlay {
   opacity: 0.8;
 }
 
@@ -787,6 +789,38 @@ input.nice-select-filter {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 2;
+}
+
+.box-content-8-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.box-content-8-content {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #ffffff;
+}
+
+.box-content-8-content-text {
+  width: 90%;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 10px 0;
+}
+
+.box-content-8-content-author {
+  font-size: 14px;
+  font-weight: 500;
+  color: #51aff7;
 }
 
 .custom-nav .owl-nav, .custom-nav-2 .owl-nav, .custom-nav-accent2 .owl-nav {
@@ -3330,6 +3364,76 @@ input.nice-select-filter {
 
 .category3-main-content .wrap-btn {
   margin-top: 40px;
+}
+
+/**** Category 6 ****/
+.category6-main-content .btn-accent-2, .category6-main-content .btn-black {
+  margin-top: 15px;
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+.category6-main-content .box-wrap {
+  margin-bottom: 30px;
+}
+
+.category6-main-content .wrap-btn {
+  margin-top: 0px;
+}
+
+/**** Category 8 ****/
+.category8-main-content .box-content-1-text h4 {
+  margin-top: 15px;
+}
+
+.category8-main-content .box-content-1-text h4 a {
+  font-size: 30px;
+  line-height: 40px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.category8-main-content .box-content-1-text h4 a:hover {
+  color: #51aff7;
+}
+
+.category8-main-content .box-wrap .btn-accent-2, .category8-main-content .box-wrap .btn-black {
+  width: 170px;
+  height: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.category8-main-content .btn-black {
+  width: 170px;
+  height: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 10px 20px;
 }
 
 /* IMPORT RESPONSIVE

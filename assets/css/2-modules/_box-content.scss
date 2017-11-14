@@ -307,3 +307,37 @@
     z-index: 2;
   }
 }
+
+.box-content-8 {
+  @extend .box-content-1;
+
+  &-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(#000000, 0.8);
+  }
+
+  &-content {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    color: $white-color;
+  }
+
+  &-content-text {
+    width: 90%;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 10px 0;
+  }
+
+  &-content-author {
+    font-size: 14px;
+    font-weight: 500;
+    color: $accent-color2;
+  }
+}
