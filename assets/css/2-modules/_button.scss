@@ -113,3 +113,32 @@
     background: $menu-bg2;
   }
 }
+
+.btn-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: $white-color;
+  width: 70px;
+  height: 40px;
+  border-radius: 0;
+  margin-right: 10px;
+  @include hoverColor($white-color);
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.btn-fb {
+  background: #3b5999;
+}
+
+.btn-twitter {
+  background: #0084ff;
+}
+
+.btn-google {
+  background: #dd4b39;
+}

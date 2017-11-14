@@ -1,0 +1,113 @@
+.single-post1-content {
+    .title {
+        font-size: 36px;
+        line-height: 46px;
+        color: $text-color3;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    .wrap-meta {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid $border-color;
+        border-bottom: 1px solid $border-color;
+        padding: 10px 0;
+    }
+
+    .wrap-share {
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        
+        span {
+            &:nth-child(1) {
+                @include font('Roboto');
+                font-size: 14px;
+                color: $text-color7;
+                font-weight: 500;
+                margin-right: 40px;
+
+                i {
+                    margin-right: 5px;
+                }
+            }
+
+            &:nth-child(2) {
+                display: flex;
+            }
+        }
+    }
+
+    .wrap-content {
+        @include font('Roboto');
+        padding: 40px 0;
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            color: $text-color4;
+            margin-bottom: 25px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .wrap-quote {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+
+        .quote {
+            padding-left: 70px;
+            position: relative;
+            width: 75%;
+
+            p {
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+                text-transform: uppercase;
+            }
+
+            .line-8 {
+                &:before {
+                    border-color: $white-color;
+                }
+
+                &:after {
+                    width: 70px;
+                }
+            }
+        }
+    }
+
+    .wrap-tag {
+        display: flex;
+        padding: 10px 0;
+        border-top: 1px solid $border-color;
+        border-bottom: 1px solid $border-color;
+        @include font('Roboto');
+
+        span {
+            font-size: 14px;
+            color: $text-color7;
+            font-weight: 600;
+
+            a {
+                color: $text-color4;
+                font-weight: 500;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .post-carousel {
+        .wrap-post {
+            display: flex;
+        }
+    }
+}
