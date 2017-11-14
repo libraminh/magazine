@@ -57,7 +57,7 @@ $(function(){
   });
 
   $(function() {
-    $(".home1-page, .home4-page, .category1-page, .category2-page").niceScroll({
+    $(".accent-2-scroll").niceScroll({
       cursorcolor:"#51aff7",
       cursorwidth: '10px',
       cursorborder: '0px',

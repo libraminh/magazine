@@ -1,0 +1,15 @@
+.category3-main-content {
+    .box-wrap {
+        margin-bottom: 25px;
+    }
+
+    .box-content-1-text {
+        h4 a {
+            @include hoverColor($accent-color2);
+        }
+    }
+
+    .wrap-btn {
+        margin-top: 40px;
+    }
+}

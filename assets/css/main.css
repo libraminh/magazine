@@ -79,6 +79,12 @@ body::-webkit-scrollbar-thumb {
   padding: 50px 0;
 }
 
+.play-icon-1, .volume-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
 /* GLOBAL CLASS
    ----------------------------- */
 .metadata, .metadata-1 {
@@ -3307,10 +3313,23 @@ input.nice-select-filter {
 }
 
 /**** Category ****/
-.category-main-content .media .play-icon-1, .category-main-content .media .volume-icon {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
+/**** Category 3 ****/
+.category3-main-content .box-wrap {
+  margin-bottom: 25px;
+}
+
+.category3-main-content .box-content-1-text h4 a {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.category3-main-content .box-content-1-text h4 a:hover {
+  color: #51aff7;
+}
+
+.category3-main-content .wrap-btn {
+  margin-top: 40px;
 }
 
 /* IMPORT RESPONSIVE
