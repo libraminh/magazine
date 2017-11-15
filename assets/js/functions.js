@@ -126,7 +126,7 @@ function activeCarousel() {
     items: 1,
     margin: 10,
     loop: true,
-    nav: true,
+    nav: false,
     dots: false,
     center: false,
     navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
@@ -140,6 +140,29 @@ function activeCarousel() {
       },
       1000:{
           items:3,
+          dots: false,
+      },
+    }
+  });
+
+  $('.single-post7-carousel-control').owlCarousel({
+    items: 1,
+    margin: 10,
+    loop: true,
+    nav: false,
+    dots: false,
+    center: false,
+    navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    responsive:{
+      0:{
+        items:1,
+      },
+      768:{
+          margin: 10,
+          items:1,
+      },
+      1000:{
+          items:5,
           dots: false,
       },
     }
