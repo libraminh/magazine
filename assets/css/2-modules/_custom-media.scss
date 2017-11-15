@@ -127,3 +127,60 @@
     line-height: 24px;
   }
 }
+
+/**** media comment ****/
+.media-comment {
+  margin-bottom: 25px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    & .media {
+        position: relative;
+        margin-top: 25px;
+    }
+
+    .media-body {
+        h5 {
+            font-size: 16px;
+            line-height: 24px;
+            color: $text-color3;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+
+    .media-date {
+      display: inline-block;
+      font-size: 12px;
+      line-height: 30px;
+      color: $text-color6;
+      @include font('Roboto');
+      margin: 5px 0;
+    }
+
+    .media-text {
+      font-size: 14px;
+      line-height: 24px;
+      color: $text-color4;
+      @include font('Roboto');
+      margin-bottom: 5px;
+    }
+
+    .media-avatar {
+        margin-right: 30px !important;
+    }
+
+    .line-8 {
+        left: -28px;
+
+        &:before {
+            border-color: $white-color;
+        }
+
+        &:after {
+            width: 120px;
+        }
+    }
+}

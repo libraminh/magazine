@@ -1,0 +1,46 @@
+.single-post3-content {
+    .wrap-share {
+        border-bottom: 1px solid $border-color;
+    }
+
+    .wrap-quote {
+        .quote {
+            width: 85%;
+        }
+    }
+
+    .post-carousel {
+        .media {
+
+            h5 {
+                font-size: 14px !important;
+            }
+
+            &:nth-child(odd) {
+                padding-right: 15px !important;
+
+                .media-body {
+                    text-align: right;
+                    margin-right: 10px !important;
+
+                    h5 {
+                        width: 85%;
+                        float: right;
+                    }
+                }
+            }
+
+            &:nth-child(even) {
+                padding-left: 15px !important;
+
+                .media-body {
+                    margin-left: 10px !important;
+
+                    h5 {
+                        width: 85%;
+                    }
+                }
+            }
+        }
+    }
+}

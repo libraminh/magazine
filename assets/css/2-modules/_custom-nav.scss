@@ -93,3 +93,26 @@
     background: $accent-color2 !important;
   }
 }
+
+.post-nav {
+
+  .owl-next, .owl-prev {
+    background: none !important;
+    top: 30px;
+
+    i {
+      color: $text-color;
+      font-size: 30px;
+    }
+  }
+
+  .owl-next {
+    position: absolute;
+    right: 0;
+  }
+
+  .owl-prev {
+    position: absolute;
+    left: 0;
+  }
+}

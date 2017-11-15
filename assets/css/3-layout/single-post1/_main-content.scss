@@ -19,7 +19,7 @@
         padding: 10px 0;
         display: flex;
         align-items: center;
-        
+
         span {
             &:nth-child(1) {
                 @include font('Roboto');
@@ -106,8 +106,87 @@
     }
 
     .post-carousel {
+        padding: 20px 0;
+        border-bottom: 1px solid $border-color;
+        display: flex;
+
         .wrap-post {
             display: flex;
+
+            .media {
+                width: 90%;
+                margin-bottom: 0;
+
+                h5 {
+                    font-size: 18px;
+                    line-height: 28px;
+                    font-weight: 700;
+                    @include hoverColor($accent-color2);
+                }
+
+                h6 {
+                    color: $accent-color2;
+                }
+
+                &:nth-child(odd) {
+                    padding-right: 25px;
+                    border-right: 1px solid $border-color;
+
+                    .media-body {
+                        text-align: right;
+                        margin-right: 20px;
+                    }
+                }
+
+                &:nth-child(even) {
+                    padding-left: 25px;
+
+                    .media-body {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .wrap-similar {
+        border-bottom: 1px solid $border-color;
+        padding-bottom: 55px;
+
+        .box-content-1-text {
+            h4 a {
+                @include hoverColor($accent-color2);
+            }
+        }
+    }
+
+    .comment-area {
+        padding: 55px 0;
+        border-bottom: 1px solid $border-color;
+    }
+
+    .write-comment {
+        padding-top: 55px;
+
+        .btn-accent-2 {
+            font-size: 14px;
+            padding: 7px 15px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+
+            .form-control {
+                border-radius: 0;
+                font-size: 14px;
+                color: $text-color6;
+                @include font('Roboto');
+                @include placeholderColor($text-color6);
+            }
+
+            textarea {
+                height: 110px;
+            }
         }
     }
 }

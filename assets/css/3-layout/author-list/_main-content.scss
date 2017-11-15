@@ -31,11 +31,11 @@
         .line-1 {
             transform: rotateY(180deg);
             transition: all .2s ease-in-out;
-    
+
             &:after {
                 display: none;
             }
-    
+
             &:before {
                 transition: all .2s ease-in-out;
                 background: $border-color;

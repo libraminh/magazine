@@ -1,21 +1,25 @@
 include jadefiles/global/head.jade
 |
 |
-body.single-post1-page.accent-2-scroll
+body.single-post2-page.accent-2-scroll
   |
   |
   .home-wrap
     include jadefiles/home1/header.jade
     |
     |
-    include jadefiles/single-post1/breadcrumb.jade
-    |
-    |
-    .home-sections
+    .home-sections.Pt0
+      include jadefiles/single-post2/breadcrumb.jade
+      |
+      |
+      include jadefiles/single-post2/thumb-post.jade
+      .Mb50
+      |
+      |
       .container
         .row
           .col-md-12
-            include jadefiles/single-post1/main-content.jade
+            include jadefiles/single-post2/main-content.jade
     |
     |
     include jadefiles/home1/subscribe.jade

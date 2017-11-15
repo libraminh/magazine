@@ -22,8 +22,6 @@
 @import "1-base/base";
 @import "1-base/global-css";
 
-
-
 /* IMPORT COMPONENTS
    ----------------------------- */
 @import "2-modules/nice-select-filter";
@@ -42,7 +40,6 @@
 @import "2-modules/breadcrumb";
 @import "2-modules/select";
 @import "2-modules/footer";
-
 
 /* IMPORT LAYOUT
    ----------------------------- */
@@ -126,7 +123,7 @@
 
   /**** Category 3 ****/
   @import "3-layout/category3/main-content";
-  
+
   /**** Category 6 ****/
   @import "3-layout/category6/main-content";
 
@@ -138,6 +135,9 @@
 
   /**** Single post1 ****/
   @import "3-layout/single-post1/main-content";
+
+  /**** Single post3 ****/
+  @import "3-layout/single-post3/main-content";
 
 /* IMPORT RESPONSIVE
    ----------------------------- */
