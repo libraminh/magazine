@@ -28,16 +28,6 @@ $(function(){
     asNavFor: '.gallery-control'
   });
 
-  // $('.gallery-control').slick({
-  //   slidesToShow: 5,
-  //   slidesToScroll: 5,
-  //   vertical: true,
-  //   arrows: false,
-  //   fade: true,
-  //   dots: false,
-  //   asNavFor: '.gallery-slick',
-  // });
-
   $(function() {
     $(".home2-page").niceScroll({
       cursorcolor:"#c26dc9",
@@ -116,6 +106,40 @@ function activeCarousel() {
       },
       1000:{
           items:6,
+          dots: false,
+      },
+    }
+  });
+
+  $('.single-post-carousel').owlCarousel({
+    items: 1,
+    margin: 10,
+    loop: true,
+    nav: false,
+    dots: false,
+    navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    URLhashListener:true,
+    startPosition: 'URLHash'
+  });
+
+  $('.single-post-carousel-control').owlCarousel({
+    items: 1,
+    margin: 10,
+    loop: true,
+    nav: true,
+    dots: false,
+    center: false,
+    navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    responsive:{
+      0:{
+        items:1,
+      },
+      768:{
+          margin: 10,
+          items:1,
+      },
+      1000:{
+          items:3,
           dots: false,
       },
     }
