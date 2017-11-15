@@ -1,0 +1,20 @@
+.single-video1-content {
+    .show-less {
+        padding: 10px 0;
+        border-top: 1px solid $border-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            font-size: 12px;
+            line-height: 24px;
+            font-weight: 700;
+            color: $text-color7;
+        }
+    }
+
+    .wrap-tag {
+        padding: 20px 0;
+    }
+}

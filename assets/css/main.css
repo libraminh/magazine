@@ -201,6 +201,10 @@ p:hover {
   margin-top: 40px;
 }
 
+.Mt50 {
+  margin-top: 50px;
+}
+
 .Mt20 {
   margin-top: 20px;
 }
@@ -3995,6 +3999,39 @@ input.nice-select-filter {
 
 .single-post3-content .post-carousel .media:nth-child(even) .media-body h5 {
   width: 85%;
+}
+
+/**** Single video1 ****/
+.single-video1-content .show-less {
+  padding: 10px 0;
+  border-top: 1px solid #eaeaea;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.single-video1-content .show-less a {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #555555;
+}
+
+.single-video1-content .wrap-tag {
+  padding: 20px 0;
+}
+
+.single-video1-adcontent .custom-nav .owl-nav [class*='owl-']:hover, .single-video1-adcontent .custom-nav-2 .owl-nav [class*='owl-']:hover, .single-video1-adcontent .custom-nav-accent2 .owl-nav [class*='owl-']:hover {
+  background: #51aff7 !important;
 }
 
 /* IMPORT RESPONSIVE
