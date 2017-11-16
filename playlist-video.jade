@@ -1,26 +1,26 @@
 include jadefiles/global/head.jade
 |
 |
-body.single-video1-page.accent-2-scroll
+body.playlist-video-page.accent-2-scroll
   |
   |
   .home-wrap
     include jadefiles/home1/header.jade
     |
     |
-    include jadefiles/single-post1/breadcrumb.jade
+    include jadefiles/single-video2/breadcrumb.jade
     |
     |
-    .home-sections
+    .home-sections.Pt0
+      include jadefiles/playlist-video/thumb-post.jade
+      .Mb50
+      |
+      |
       .container
         .row
           // Primary Column
           .col-md-8.primary-col
-            include jadefiles/single-video1/thumb-post.jade
-            .Mb50
-            |
-            |
-            include jadefiles/single-video1/main-content.jade
+            include jadefiles/single-video2/main-content.jade
           |
           |
           // Sidebar Column

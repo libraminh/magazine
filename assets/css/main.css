@@ -1532,23 +1532,23 @@ input.nice-select-filter {
   align-items: center;
 }
 
-.breadcrumb-1, .breadcrumb-wrap-2 .breadcrumb-2 {
+.breadcrumb-1, .breadcrumb-wrap-2 .breadcrumb-2, .breadcrumb-wrap-3 .breadcrumb-3 {
   background: #f9f9f9;
   padding: 0 !important;
 }
 
-.breadcrumb-1 a, .breadcrumb-wrap-2 .breadcrumb-2 a {
+.breadcrumb-1 a, .breadcrumb-wrap-2 .breadcrumb-2 a, .breadcrumb-wrap-3 .breadcrumb-3 a {
   font-size: 12px;
   color: #999999;
 }
 
-.breadcrumb-1 li, .breadcrumb-wrap-2 .breadcrumb-2 li {
+.breadcrumb-1 li, .breadcrumb-wrap-2 .breadcrumb-2 li, .breadcrumb-wrap-3 .breadcrumb-3 li {
   font-size: 12px;
   font-weight: 600;
   color: #999999;
 }
 
-.breadcrumb-1 .breadcrumb-item + .breadcrumb-item::before, .breadcrumb-wrap-2 .breadcrumb-2 .breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-1 .breadcrumb-item + .breadcrumb-item::before, .breadcrumb-wrap-2 .breadcrumb-2 .breadcrumb-item + .breadcrumb-item::before, .breadcrumb-wrap-3 .breadcrumb-3 .breadcrumb-item + .breadcrumb-item::before {
   content: '.';
 }
 
@@ -1561,6 +1561,14 @@ input.nice-select-filter {
 }
 
 .breadcrumb-wrap-2 .breadcrumb-2 {
+  background: none;
+}
+
+.breadcrumb-wrap-3 {
+  background: #1f1f1f;
+}
+
+.breadcrumb-wrap-3 .breadcrumb-3 {
   background: none;
 }
 
@@ -4032,6 +4040,40 @@ input.nice-select-filter {
 
 .single-video1-adcontent .custom-nav .owl-nav [class*='owl-']:hover, .single-video1-adcontent .custom-nav-2 .owl-nav [class*='owl-']:hover, .single-video1-adcontent .custom-nav-accent2 .owl-nav [class*='owl-']:hover {
   background: #51aff7 !important;
+}
+
+/**** Single video2 ****/
+.single-video2-thumb-post {
+  padding: 60px 0;
+  background: #131313;
+}
+
+.single-video2-thumb-post .post-video {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+/**** Playlist video ****/
+.playlist-video-thumb-post .post-video-1 {
+  width: 100%;
+  height: 480px;
+}
+
+.playlist-video-thumb-post .wrap-video-list {
+  height: 480px;
+  overflow: auto;
+}
+
+.playlist-video-thumb-post .media h5 {
+  color: #ffffff;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.playlist-video-thumb-post .media h5:hover {
+  color: #51aff7;
 }
 
 /* IMPORT RESPONSIVE

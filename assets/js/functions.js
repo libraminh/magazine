@@ -68,6 +68,16 @@ $(function(){
     });
   });
 
+  $(function() {
+    $(".wrap-video-list").niceScroll({
+      cursorcolor:"#555555",
+      cursorwidth: '5px',
+      cursorborder: '0px',
+      zindex: 10,
+      scrollspeed: 100
+    });
+  });
+
 })
 
 // function area

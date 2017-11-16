@@ -41,3 +41,12 @@
         background: none;
     }
 }
+
+.breadcrumb-wrap-3 {
+    background: #1f1f1f;
+
+    .breadcrumb-3 {
+        @extend .breadcrumb-1;
+        background: none;
+    }
+}
