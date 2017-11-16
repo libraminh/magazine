@@ -4076,5 +4076,23 @@ input.nice-select-filter {
   color: #51aff7;
 }
 
+/**** About ****/
+.about-content .about-us p, .about-content .we-do p {
+  color: #777777;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.about-content .about-us p:last-child, .about-content .we-do p:last-child {
+  margin-bottom: 0;
+}
+
+.about-content .popular-author .line-9 {
+  margin: 0;
+  margin-bottom: 50px !important;
+}
+
 /* IMPORT RESPONSIVE
    ----------------------------- */
