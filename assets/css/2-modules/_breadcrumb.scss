@@ -25,7 +25,15 @@
     }
 
     .breadcrumb-item+.breadcrumb-item::before {
-        content: '.';
+        content: '';
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background: $text-color;
+        border-radius: 50%;
+        padding: 0;
+        margin: 0 7px;
+        transform: translateY(-1px);
     }
 }
 
@@ -35,10 +43,19 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 10;
 
     .breadcrumb-2 {
         @extend .breadcrumb-1;
         background: none;
+
+        li, a {
+            color: $white-color;
+        }
+
+        .breadcrumb-item+.breadcrumb-item::before {
+            background: $white-color;
+        }
     }
 }
 
