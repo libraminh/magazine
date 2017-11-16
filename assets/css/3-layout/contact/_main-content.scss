@@ -1,0 +1,34 @@
+.contact-content {
+    .contact-list {
+        li {
+            display: flex;
+            margin-bottom: 25px;
+
+            img {
+                margin-right: 10px;
+                width: 40px;
+                height: 40px;
+            }
+
+            p {
+                span {
+                    display: block;
+
+                    &:nth-child(1) {
+                        font-size: 14px;
+                        color: $accent-color2;
+                        font-weight: 500;
+                        margin-bottom: 5px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    textarea {
+        height: 176px !important;
+    }
+}

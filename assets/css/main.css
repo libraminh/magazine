@@ -4094,5 +4094,36 @@ input.nice-select-filter {
   margin-bottom: 50px !important;
 }
 
+/**** Contact ****/
+.contact-content .contact-list li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.contact-content .contact-list li img {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.contact-content .contact-list li p span {
+  display: block;
+}
+
+.contact-content .contact-list li p span:nth-child(1) {
+  font-size: 14px;
+  color: #51aff7;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.contact-content textarea {
+  height: 176px !important;
+}
+
 /* IMPORT RESPONSIVE
    ----------------------------- */
