@@ -3,6 +3,7 @@ new WOW().init();
 $(function(){
   // niceSelectFilter();
   activeCarousel();
+  faqList();
 
   $('.author-select').niceSelect();
 
@@ -81,6 +82,25 @@ $(function(){
 })
 
 // function area
+function faqList() {
+  var faqBox = $('.faq-box a');
+  var faqIcon = '.faq-icon';
+
+  faqBox.on('click', function(){
+      let $this = $(this);
+
+      $this.parent().siblings(faqIcon).toggleClass('fa-plus');
+      $this.parent().siblings(faqIcon).toggleClass('fa-minus');
+  })
+
+  $(faqIcon).on('click', function(){
+    let $this = $(this);
+
+    $this.toggleClass('fa-plus');
+    $this.toggleClass('fa-minus');
+  })
+}
+
 function activeCarousel() {
   $('.carousel-none').owlCarousel({
     items: 1,
