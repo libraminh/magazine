@@ -1,0 +1,98 @@
+
+@media (max-width: 992px) {
+    .home3-menu, .home1-menu, .menu {
+        padding: 20px 0;
+
+        .navbar-brand {
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+
+        .navbar-nav {
+            align-items: flex-start;
+            width: 100%;
+
+            li {
+                width: 100%;
+                margin: 15px 0;
+            }
+
+            a {
+                display: block;
+                width: 100%;
+                line-height: 24px;
+                margin: 0;
+            }
+        }
+
+        .sub-menu, .sub-menu-sub {
+            width: 100%;
+            margin: 0;
+            position: static;
+            opacity: 1;
+            display: none;
+            transition: none;
+        }
+
+        .sub-menu-sub {
+            background: none;
+        }
+
+        .navbar-toggler {
+            border: none;
+            padding: 0;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .hamburger {
+            padding: 0;
+
+            &:focus {
+                border: none !important;
+                box-shadow: none !important;
+            }
+
+            .hamburger-box {
+                border: none;
+                display: block;
+                background: $menu-bg2;
+
+                &:focus {
+                    border: none !important;
+                    box-shadow: none !important;
+                }
+
+
+            }
+        }
+
+        .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+            width: 35px;
+            height: 2px;
+            background-color: $white-color;
+        }
+
+
+    }
+
+    .home3-menu {
+        .hamburger-box {
+            background: $logo-bg !important;
+        }
+    }
+
+    .home1-menu, .home5-menu {
+        .hamburger-box {
+            background: $white-color!important;
+        }
+
+        .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+            width: 35px;
+            height: 2px;
+            background-color: #666;
+        }
+    }
+}

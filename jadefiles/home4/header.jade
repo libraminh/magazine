@@ -26,12 +26,14 @@
         
   |
   |
-  section.home3-menu
+  section.home3-menu.home1-menu
     .container
       nav.navbar.navbar-expand-lg.navbar-light.bg-light
         |   
         button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
-          span.navbar-toggler-icon
+          div.hamburger.hamburger--squeeze(type='button')
+            span.hamburger-box
+              span.hamburger-inner
         |   
         #navbarSupportedContent.collapse.navbar-collapse
           ul.navbar-nav.mr-auto.text-uppercase
@@ -39,15 +41,57 @@
               a.nav-link(href='#')
                 | HOMEPAGES 
                 span.sr-only (current)
+              |
+              |
+              ul.sub-menu.list-unstyled
+                li: a(href="home1.html") Home 1
+                li: a(href="home2.html") Home 2
+                li: a(href="home3.html") Home 3
+                li: a(href="home4.html") Home 4
+                li: a(href="home5.html") Home 5
             |       
             li.nav-item
               a.nav-link(href='#') OTHERPAGES  
+              |
+              |
+              ul.sub-menu.list-unstyled
+                li: a(href="#") Single Video
+                  ul.sub-menu-sub.list-unstyled
+                    li: a(href="single-video1.html") Single Video 1
+                    li: a(href="single-video2.html") Single Video 2
+                li: a(href="#") Single Post
+                  ul.sub-menu-sub.list-unstyled
+                    li: a(href="single-post1.html") Single Post 1
+                    li: a(href="single-post2.html") Single Post 2
+                    li: a(href="single-post3.html") Single Post 3
+                    li: a(href="single-post4.html") Single Post 4
+                    li: a(href="single-post5.html") Single Post 5
+                    li: a(href="single-post6.html") Single Post 6
+                    li: a(href="single-post7.html") Single Post 7
+                li: a(href="playlist-video.html") Playlist Video
+                li: a(href="faq.html") FAQ
+                li: a(href="error.html")  Error
+                li: a(href="#")  Category
+                  ul.sub-menu-sub.list-unstyled
+                    li: a(href="category1.html") Category 1
+                    li: a(href="category2.html") Category 2
+                    li: a(href="category3.html") Category 3
+                    li: a(href="category4.html") Category 4
+                    li: a(href="category5.html") Category 5
+                    li: a(href="category6.html") Category 6
+                    li: a(href="category7.html") Category 7
+                    li: a(href="category8.html") Category 8
+                    li: a(href="category9.html") Category 9
+                li: a(href="#") Author           
+                  ul.sub-menu-sub.list-unstyled
+                    li: a(href="author-list.html") Author List
+                    li: a(href="author-detail.html") Author Detail
             li.nav-item
               a.nav-link(href='#') MEGAMENU 
             li.nav-item
-              a.nav-link(href='#') ABOUT
+              a.nav-link(href='about.html') ABOUT
             li.nav-item
-              a.nav-link(href='#') CONTACT
+              a.nav-link(href='contact.html') CONTACT
     
           |     
           form.form-inline.my-2.my-lg-0

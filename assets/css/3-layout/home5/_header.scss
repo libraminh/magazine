@@ -16,7 +16,7 @@
         }
 
         .navbar-nav {
-            li.active a {
+            li.active > a {
                 color: $accent-color3 !important;
             }
 
@@ -24,6 +24,11 @@
                 color: $text-color4 !important;
                 @include hoverColor($accent-color3 !important);
             }
+        }
+
+        .sub-menu, .sub-menu-sub {
+            background: $white-color !important;
+            border: 1px solid $border-color;
         }
     }
 }

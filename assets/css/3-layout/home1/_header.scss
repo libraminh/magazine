@@ -8,7 +8,7 @@
     border: none;
   }
 
-  .home3-menu {
+  .home1-menu {
     background: $white-color;
     border-top: 1px solid $border-color;
     border-bottom: 1px solid $border-color;
@@ -27,6 +27,15 @@
         color: $text-color !important;
         @include hoverColor($accent-color2 !important);
       }
+
+      li.active > a {
+        color: $accent-color2 !important;
+      }
+    }
+
+    .sub-menu, .sub-menu-sub {
+      background: $white-color !important;
+      border: 1px solid $border-color;
     }
   }
 

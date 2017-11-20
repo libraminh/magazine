@@ -12,6 +12,7 @@
 @import url(0-tools/slick/slick-theme.css);
 @import url(0-tools/lightbox/magnific-popup.css);
 @import url(0-tools/hover-direction/style.css);
+@import url(0-tools/hamburger/hamburgers.min.css);
 /* IMPORT BASE
    ----------------------------- */
 /**** Home3 ****/
@@ -1746,7 +1747,16 @@ input.nice-select-filter {
   align-items: center;
 }
 
-.menu .navbar-nav li.active a {
+.menu .navbar-nav li {
+  position: relative;
+}
+
+.menu .navbar-nav li:hover .sub-menu {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.menu .navbar-nav li.active > a {
   color: #c26dc9 !important;
 }
 
@@ -1763,7 +1773,7 @@ input.nice-select-filter {
 }
 
 .menu .navbar-nav a:hover {
-  color: #c26dc9;
+  color: #c26dc9 !important;
 }
 
 .menu .search-btn i {
@@ -2245,7 +2255,7 @@ input.nice-select-filter {
 
 .home3-menu .navbar {
   background: #272727 !important;
-  padding: 10px 0;
+  padding: 0;
 }
 
 .home3-menu .navbar .btn-search {
@@ -2264,12 +2274,22 @@ input.nice-select-filter {
 
 .home3-menu .navbar-nav li {
   margin-right: 70px;
+  position: relative;
+}
+
+.home3-menu .navbar-nav li:hover .sub-menu {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.home3-menu .navbar-nav li.active > a {
+  color: #ff3249 !important;
 }
 
 .home3-menu .navbar-nav a {
   color: #ffffff !important;
   font-size: 13px;
-  line-height: 24px;
+  line-height: 60px;
   font-weight: 500;
   padding: 0 !important;
   -webkit-transition: all .2s ease-in-out;
@@ -2279,6 +2299,50 @@ input.nice-select-filter {
 
 .home3-menu .navbar-nav a:hover {
   color: #ff3249 !important;
+}
+
+.sub-menu {
+  text-transform: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  width: 300px;
+  background: rgba(39, 39, 39, 0.9);
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.sub-menu li {
+  padding: 0 20px;
+  margin-right: 0 !important;
+  position: relative;
+}
+
+.sub-menu li:hover .sub-menu-sub {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.sub-menu a {
+  margin: 0 !important;
+  line-height: 50px !important;
+}
+
+.sub-menu-sub {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 300px;
+  background: rgba(39, 39, 39, 0.9);
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .home3-thumb {
@@ -2638,21 +2702,21 @@ input.nice-select-filter {
   border: none;
 }
 
-.home1-header .home3-menu {
+.home1-header .home1-menu {
   background: #ffffff;
   border-top: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea;
 }
 
-.home1-header .home3-menu .navbar {
+.home1-header .home1-menu .navbar {
   background: #ffffff !important;
 }
 
-.home1-header .home3-menu .navbar .btn-search {
+.home1-header .home1-menu .navbar .btn-search {
   color: #51aff7;
 }
 
-.home1-header .home3-menu .navbar-nav a {
+.home1-header .home1-menu .navbar-nav a {
   font-weight: 600;
   color: #999999 !important;
   -webkit-transition: all .2s ease-in-out;
@@ -2660,8 +2724,17 @@ input.nice-select-filter {
   transition: all .2s ease-in-out;
 }
 
-.home1-header .home3-menu .navbar-nav a:hover {
+.home1-header .home1-menu .navbar-nav a:hover {
   color: #51aff7 !important;
+}
+
+.home1-header .home1-menu .navbar-nav li.active > a {
+  color: #51aff7 !important;
+}
+
+.home1-header .home1-menu .sub-menu, .home1-header .home1-menu .sub-menu-sub {
+  background: #ffffff !important;
+  border: 1px solid #eaeaea;
 }
 
 .home1-header .breaking-news .carousel-7 a {
@@ -3334,7 +3407,7 @@ input.nice-select-filter {
   color: #ffb10a;
 }
 
-.home5-header .menu .navbar-nav li.active a {
+.home5-header .menu .navbar-nav li.active > a {
   color: #ffb10a !important;
 }
 
@@ -3347,6 +3420,11 @@ input.nice-select-filter {
 
 .home5-header .menu .navbar-nav a:hover {
   color: #ffb10a !important;
+}
+
+.home5-header .menu .sub-menu, .home5-header .menu .sub-menu-sub {
+  background: #ffffff !important;
+  border: 1px solid #eaeaea;
 }
 
 .home5-video-list {
@@ -4260,3 +4338,83 @@ input.nice-select-filter {
 
 /* IMPORT RESPONSIVE
    ----------------------------- */
+@media (max-width: 992px) {
+  .home3-menu, .home1-menu, .menu {
+    padding: 20px 0;
+  }
+  .home3-menu .navbar-brand, .home1-menu .navbar-brand, .menu .navbar-brand {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .home3-menu .navbar-nav, .home1-menu .navbar-nav, .menu .navbar-nav {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .home3-menu .navbar-nav li, .home1-menu .navbar-nav li, .menu .navbar-nav li {
+    width: 100%;
+    margin: 15px 0;
+  }
+  .home3-menu .navbar-nav a, .home1-menu .navbar-nav a, .menu .navbar-nav a {
+    display: block;
+    width: 100%;
+    line-height: 24px;
+    margin: 0;
+  }
+  .home3-menu .sub-menu, .home3-menu .sub-menu-sub, .home1-menu .sub-menu, .home1-menu .sub-menu-sub, .menu .sub-menu, .menu .sub-menu-sub {
+    width: 100%;
+    margin: 0;
+    position: static;
+    opacity: 1;
+    display: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+  .home3-menu .sub-menu-sub, .home1-menu .sub-menu-sub, .menu .sub-menu-sub {
+    background: none;
+  }
+  .home3-menu .navbar-toggler, .home1-menu .navbar-toggler, .menu .navbar-toggler {
+    border: none;
+    padding: 0;
+  }
+  .home3-menu .navbar-toggler:focus, .home1-menu .navbar-toggler:focus, .menu .navbar-toggler:focus {
+    outline: none;
+  }
+  .home3-menu .hamburger, .home1-menu .hamburger, .menu .hamburger {
+    padding: 0;
+  }
+  .home3-menu .hamburger:focus, .home1-menu .hamburger:focus, .menu .hamburger:focus {
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .home3-menu .hamburger .hamburger-box, .home1-menu .hamburger .hamburger-box, .menu .hamburger .hamburger-box {
+    border: none;
+    display: block;
+    background: #212121;
+  }
+  .home3-menu .hamburger .hamburger-box:focus, .home1-menu .hamburger .hamburger-box:focus, .menu .hamburger .hamburger-box:focus {
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .home3-menu .hamburger-inner, .home3-menu .hamburger-inner:after, .home3-menu .hamburger-inner:before, .home1-menu .hamburger-inner, .home1-menu .hamburger-inner:after, .home1-menu .hamburger-inner:before, .menu .hamburger-inner, .menu .hamburger-inner:after, .menu .hamburger-inner:before {
+    width: 35px;
+    height: 2px;
+    background-color: #ffffff;
+  }
+  .home3-menu .hamburger-box {
+    background: #272727 !important;
+  }
+  .home1-menu .hamburger-box, .home5-menu .hamburger-box {
+    background: #ffffff !important;
+  }
+  .home1-menu .hamburger-inner, .home1-menu .hamburger-inner:after, .home1-menu .hamburger-inner:before, .home5-menu .hamburger-inner, .home5-menu .hamburger-inner:after, .home5-menu .hamburger-inner:before {
+    width: 35px;
+    height: 2px;
+    background-color: #666;
+  }
+}

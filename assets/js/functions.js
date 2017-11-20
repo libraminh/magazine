@@ -4,6 +4,13 @@ $(function(){
   // niceSelectFilter();
   activeCarousel();
   faqList();
+  openSubMenu();
+
+  $('.hamburger').on('click', function() {
+    $(this).toggleClass('is-active');
+  })
+
+
 
   $('.author-select').niceSelect();
 
@@ -82,6 +89,23 @@ $(function(){
 })
 
 // function area
+function openSubMenu() {
+  var navLink = $('.navbar-nav a'),
+      subMenu = '.sub-menu',
+      linkSubMenu = $('.sub-menu a'),
+      subMenuSub = '.sub-menu-sub';
+
+  if($(window).width() < 992) {
+    navLink.on('click', function(){
+      $(this).parent().find(subMenu).slideToggle();
+    })
+
+    linkSubMenu.on('click', function(){
+      $(this).parent().find(subMenuSub).slideToggle();
+    })
+  }
+}
+
 function faqList() {
   var faqBox = $('.faq-box a');
   var faqIcon = '.faq-icon';
