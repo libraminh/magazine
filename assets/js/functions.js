@@ -22,7 +22,33 @@ $(function(){
     slidesToScroll: 4,
     verticalSwiping: true,
     focusOnSelect: true,
-    asNavFor: '.gallery-slick'
+    asNavFor: '.gallery-slick',
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 9,
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 7,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 7,
+        }
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 6,
+        }
+      }
+    ]
   });
 
   $('.gallery-slick').slick({

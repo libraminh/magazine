@@ -1,0 +1,28 @@
+@media (max-width: 1200px) {
+  .home4-break {
+    .break-all {
+      flex-direction: column;
+    }
+
+    .break-wrap {
+      margin-right: 0 !important;
+
+      &:first-child {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home4-break {
+    .break-wrap-small {
+      flex-direction: column;
+
+      .box-content-3 {
+        margin-right: 0 !important;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

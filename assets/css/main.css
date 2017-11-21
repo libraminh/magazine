@@ -1431,6 +1431,10 @@ input.nice-select-filter {
   width: 90%;
 }
 
+.slider-1 .slick-slide img {
+  width: 100%;
+}
+
 .slider-1 .gallery-slick {
   margin-right: 8px;
 }
@@ -4696,5 +4700,48 @@ input.nice-select-filter {
 @media (max-width: 768px) {
   .home3-investing {
     margin-bottom: 30px;
+  }
+}
+
+/**** Home4 ****/
+@media (max-width: 1200px) {
+  .home4-break .break-all {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .home4-break .break-wrap {
+    margin-right: 0 !important;
+  }
+  .home4-break .break-wrap:first-child {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home4-break .break-wrap-small {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .home4-break .break-wrap-small .box-content-3, .home4-break .break-wrap-small .box-content-video-1, .home4-break .break-wrap-small .box-content-video-2 {
+    margin-right: 0 !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .home4-world .col-md-6:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home4-news .col-md-7 .box-wrap {
+    margin-bottom: 20px !important;
   }
 }
