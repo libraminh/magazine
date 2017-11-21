@@ -10,8 +10,6 @@ $(function(){
     $(this).toggleClass('is-active');
   })
 
-
-
   $('.author-select').niceSelect();
 
   $(".gallery-control").slick({
@@ -298,7 +296,6 @@ function activeCarousel() {
       },
       768:{
           margin: 10,
-          stagePadding: 50,
           items:1,
       },
       1000:{
@@ -326,7 +323,7 @@ function activeCarousel() {
       },
       768:{
           margin: 10,
-          stagePadding: 50,
+          stagePadding: 0,
           items:1,
       },
       1000:{
@@ -380,7 +377,6 @@ function activeCarousel() {
       },
       768:{
           margin: 10,
-          stagePadding: 50,
           items:1,
       },
       1000:{
@@ -407,7 +403,6 @@ function activeCarousel() {
       },
       768:{
           margin: 10,
-          stagePadding: 50,
           items:1,
       },
       1000:{
@@ -422,7 +417,7 @@ function activeCarousel() {
     // autoplay: true,
     autoplayTimeout: 6000,
     stagePadding: 180,
-    margin: 100,
+    margin: 30,
     loop: true,
     nav: false,
     dots: false,
@@ -434,13 +429,17 @@ function activeCarousel() {
         stagePadding: 0,
       },
       768:{
-          margin: 10,
-          stagePadding: 50,
+          margin: 30,
           items:1,
       },
       1000:{
+          items:2,
+          stagePadding: 0,
+          margin: 10,
+      },
+      1400:{
           items:4,
-          dots: false,
+          stagePadding: 150,
       },
     }
   });
@@ -534,11 +533,15 @@ function activeCarousel() {
         items:1,
         stagePadding: 0,
       },
-      768:{
+      992: {
           margin: 10,
-          items:1,
+          items:3,
       },
-      1000:{
+      1120: {
+          margin: 10,
+          items:3,
+      },
+      1300:{
           items:4,
           dots: false,
       },

@@ -166,3 +166,22 @@
    ----------------------------- */
 
    @import "4-responsive/header";
+   @import "4-responsive/custom-media";
+   @import "4-responsive/box-content";
+   @import "4-responsive/footer";
+
+   /**** Home1 ****/
+   @import "4-responsive/home1/top-new";
+   @import "4-responsive/home1/top-read";
+   @import "4-responsive/home1/top-global";
+
+   /**** Home2 ****/
+   @import "4-responsive/home2/carousel";
+   @import "4-responsive/home2/news";
+   @import "4-responsive/home2/ads";
+   @import "4-responsive/home2/top-rate";
+   @import "4-responsive/home2/video";
+   @import "4-responsive/home2/star-new";
+
+   /**** Home3 ****/
+   @import "4-responsive/home3/subscribe";

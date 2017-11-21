@@ -1,0 +1,26 @@
+@media (max-width: 992px) {
+  .news-home2 {
+    .wrap-news {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .owl-item a {
+      padding: 0 !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .news-home2 {
+    .owl-nav {
+      display: none !important;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .news-box {
+    display: none !important;
+  }
+}

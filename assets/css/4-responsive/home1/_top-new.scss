@@ -1,0 +1,20 @@
+@media (max-width: 992px) {
+    .home1-topnew {
+        .topnew-wrap {
+            flex-direction: column;
+            margin-bottom: 20px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .topnew-box {
+                margin-bottom: 20px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
