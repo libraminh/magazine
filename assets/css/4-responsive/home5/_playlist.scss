@@ -1,0 +1,17 @@
+@media (max-width: 992px) {
+  .home5-playlist {
+    .col-md-12:first-child {
+      margin-bottom: 30px;
+    }
+
+    .media-2 {
+      & > a {
+        width: auto;
+
+        img {
+          width: auto;
+        }
+      }
+    }
+  }
+}

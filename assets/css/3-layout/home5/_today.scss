@@ -7,7 +7,7 @@
             width: calc(33.33% - 30px);
             margin-right: 30px;
             margin-bottom: 25px;
-            
+
             &:last-child {
                 margin-right: 0;
             }
@@ -20,6 +20,12 @@
                 color: $text-color3;
                 font-weight: 600;
                 @include hoverColor($accent-color3);
+            }
+
+            .box-content-video-wrap {
+              a {
+                width: 100%;
+              }
             }
         }
     }

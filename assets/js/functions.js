@@ -266,7 +266,6 @@ function activeCarousel() {
       },
       768:{
           margin: 10,
-          stagePadding: 50,
           items:1,
       },
       1000:{
@@ -294,7 +293,6 @@ function activeCarousel() {
       },
       768:{
           margin: 10,
-          stagePadding: 50,
           items:1,
       },
       1000:{

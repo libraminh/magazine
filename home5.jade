@@ -15,7 +15,7 @@ body.home5-page
       .container
         .row
           // Primary Column
-          .col-md-8.primary-col
+          .col-12.col-lg-12.col-xl-8.primary-col
             include jadefiles/home5/today.jade
             .Mb50
             |
@@ -24,7 +24,7 @@ body.home5-page
           |
           |
           // Sidebar Column
-          .col-md-4.sidebar-col
+          .d-none.d-xl-block.col-md-4.sidebar-col
             include jadefiles/home5/connected.jade
             .Mb50
             |
@@ -48,12 +48,12 @@ body.home5-page
     .container
       .row.Py50
         // Primary Column
-        .col-md-8.primary-col.Mb50
+        .col-12.col-lg-12.col-xl-8.primary-col.Mb50
           include jadefiles/home5/last-video.jade
         |
         |
         // Sidebar Column
-        .col-md-4.sidebar-col.Mb50
+        .d-none.d-xl-block.col-md-4.sidebar-col.Mb50
           include jadefiles/home5/post-slider.jade
           |
           |

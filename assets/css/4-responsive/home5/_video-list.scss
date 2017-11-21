@@ -1,0 +1,9 @@
+@media (max-width: 992px) {
+  .home5-video-list {
+    .col-md-12 {
+      &:first-child {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}

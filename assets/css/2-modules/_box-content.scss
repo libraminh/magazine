@@ -64,7 +64,7 @@
       color: $text-color1;
     }
   }
-  
+
 }
 
 .box-content-2 {
@@ -113,7 +113,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 150px;
+    height: 40%;
     background: rgba(231,56,39,0);
     background: -moz-linear-gradient(top, rgba(231,56,39,0) 0%, rgba(51,51,51,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(231,56,39,0)), color-stop(100%, rgba(51,51,51,1)));
@@ -255,6 +255,12 @@
 
 .box-content-video-2 {
   @extend .box-content-3;
+
+  .box-content-video-wrap {
+    & > a {
+      width: 100%;
+    }
+  }
 
   img {
     height: auto !important;
