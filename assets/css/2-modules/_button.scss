@@ -52,18 +52,20 @@
 }
 
 .btn-tag-2 {
-  font-size: 14px;
-  font-weight: 500;
-  color: $text-color;
-  border-radius: 0 !important;
-  margin-bottom: 10px;
-  background: $tag-bg;
-  margin-right: 10px;
-  padding: 10px 15px;
+  @extend .btn-tag;
 
   &:hover {
     color: $white-color;
     background: $accent-color2;
+  }
+}
+
+.btn-tag-3 {
+  @extend .btn-tag;
+
+  &:hover {
+    color: $white-color;
+    background: $accent-color1;
   }
 }
 

@@ -69,6 +69,8 @@
   @import "3-layout/home3/hot";
   @import "3-layout/home3/subscribe";
   @import "3-layout/home3/tech";
+  @import "3-layout/home3/post-tag";
+  @import "3-layout/home3/footer";
 
   /**** Home 1 ****/
   @import "3-layout/home1/header";
@@ -168,6 +170,7 @@
    @import "4-responsive/header";
    @import "4-responsive/custom-media";
    @import "4-responsive/box-content";
+   @import "4-responsive/title-area";
    @import "4-responsive/footer";
 
    /**** Home1 ****/
@@ -185,3 +188,7 @@
 
    /**** Home3 ****/
    @import "4-responsive/home3/subscribe";
+   @import "4-responsive/home3/thumb-new";
+   @import "4-responsive/home3/health";
+   @import "4-responsive/home3/break";
+   @import "4-responsive/home3/investing";

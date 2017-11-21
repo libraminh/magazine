@@ -1,8 +1,10 @@
 @media (max-width: 575px) {
   .box-content-2 {
     .box-content-2-featured {
+      padding: 20px;
+
       h4 a {
-        font-size: 18px;
+        font-size: 16px !important;
         line-height: 30px;
       }
     }
@@ -11,8 +13,8 @@
   .box-content-3 {
     .box-content-3-featured {
       h4 a {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 18px !important;
+        line-height: 28px !important;
       }
     }
   }

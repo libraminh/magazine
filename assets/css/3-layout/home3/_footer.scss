@@ -1,0 +1,9 @@
+.home3-footer {
+  .footer-col-2 {
+    .media-body {
+      h5 {
+        @include hoverColor($accent-color1);
+      }
+    }
+  }
+}

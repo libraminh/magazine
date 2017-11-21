@@ -1,0 +1,19 @@
+@media (max-width: 900px) {
+  .home3-thumb {
+    .side-content {
+      width: 320px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home3-thumb {
+    .side-content {
+      display: none;
+    }
+
+    .col-sm-12 {
+      padding: 20px;
+    }
+  }
+}

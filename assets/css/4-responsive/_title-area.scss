@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .title-area {
+    display: flex;
+    flex-direction: column;
+
+    .line-4 {
+      margin-bottom: 0;
+    }
+
+    .navbar-small {
+      position: static;
+    }
+  }
+}
