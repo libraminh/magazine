@@ -171,6 +171,7 @@
    @import "4-responsive/custom-media";
    @import "4-responsive/box-content";
    @import "4-responsive/title-area";
+   @import "4-responsive/breadcrumb";
    @import "4-responsive/footer";
 
    /**** Home1 ****/
@@ -204,3 +205,6 @@
    @import "4-responsive/home5/playlist";
    @import "4-responsive/home5/movie";
    @import "4-responsive/home5/music";
+
+   /**** Single Post ****/
+   @import "4-responsive/single-post/content";

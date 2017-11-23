@@ -40,4 +40,21 @@
       width: 100% !important;
     }
   }
+
+  .media-comment {
+    flex-direction: column;
+
+    img {
+      margin-bottom: 15px;
+    }
+
+    .media {
+      flex-direction: column;
+      padding-left: 20px;
+
+      img {
+        margin-bottom: 15px;
+      }
+    }
+  }
 }

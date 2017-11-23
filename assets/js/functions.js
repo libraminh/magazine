@@ -412,7 +412,7 @@ function activeCarousel() {
 
   $('.carousel-5').owlCarousel({
     items: 1,
-    autoplay: true,
+    autoplay:  true,
     autoplayTimeout: 6000,
     margin: 1,
     loop: true,
