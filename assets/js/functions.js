@@ -123,7 +123,7 @@ function openSubMenu() {
       subMenuSub = '.sub-menu-sub';
 
   if($(window).width() < 992) {
-    navLink.on('click', function(){
+    navLink.on('click', function(e){
       $(this).parent().find(subMenu).slideToggle();
     })
 

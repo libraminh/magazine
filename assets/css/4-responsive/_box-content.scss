@@ -1,3 +1,22 @@
+@media (max-width: 768px) {
+  .box-content-8 {
+    height: 250px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .box-wrap {
+    .box-content-1-text {
+      h4 a {
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+  }
+}
+
 @media (max-width: 575px) {
   .box-content-2 {
     .box-content-2-featured {

@@ -1,0 +1,17 @@
+@media (max-width: 992px) {
+  .category6-main-content {
+    .media-4 {
+        flex-direction: column;
+
+        & > a:nth-child(3) {
+            width: 100%;
+
+            img {
+                margin: 0;
+                width: 100%;
+                margin-bottom: 15px;
+            }
+        }
+    }
+  }
+}

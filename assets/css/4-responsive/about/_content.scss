@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+  .about-content {
+    .about-us-content {
+      .col-xl-4 img {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .we-do {
+    .col-xl-6 {
+      &:first-child {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .popular-author {
+    .col-lg-5 {
+      img {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

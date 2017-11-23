@@ -1,0 +1,10 @@
+.category-main-content {
+  .latest-article-wrap {
+    .media {
+      & > a:nth-child(3) {
+        position: relative;
+      }
+    }
+
+  }
+}
