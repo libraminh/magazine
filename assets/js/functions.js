@@ -213,11 +213,11 @@ function activeCarousel() {
     navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive:{
       0:{
-        items:1,
+        items:3,
       },
       768:{
           margin: 10,
-          items:1,
+          items:3,
       },
       1000:{
           items:3,
@@ -236,11 +236,11 @@ function activeCarousel() {
     navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive:{
       0:{
-        items:1,
+        items:3,
       },
       768:{
           margin: 10,
-          items:1,
+          items:3,
       },
       1000:{
           items:5,

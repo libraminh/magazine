@@ -4884,3 +4884,29 @@ input.nice-select-filter {
     height: 30vh;
   }
 }
+
+/**** Playlist Video ****/
+@media (max-width: 992px) {
+  .playlist-video-thumb-post .wrap-video-list .media {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .playlist-video-thumb-post .wrap-video-list .media img {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .playlist-video-thumb-post .post-video-1 {
+    height: 35vh;
+  }
+  .playlist-video-thumb-post .wrap-video-list {
+    margin-top: 20px;
+  }
+  .playlist-video-thumb-post .wrap-video-list .media img {
+    width: auto !important;
+  }
+}
