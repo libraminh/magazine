@@ -63,6 +63,9 @@
             padding: 0;
             color: transparent !important;
             border-radius: 0 !important;
+            -webkit-appearance: none !important;
+            -moz-appearance:    none !important;
+            appearance:         none !important;
 
             &:focus {
                 outline: none;
