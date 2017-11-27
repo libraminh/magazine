@@ -4432,6 +4432,8 @@ input.nice-select-filter {
     background: none !important;
     border: none;
     padding: 0;
+    color: transparent !important;
+    border-radius: 0 !important;
   }
   .home3-menu .navbar-toggler:focus, .home1-menu .navbar-toggler:focus, .menu .navbar-toggler:focus {
     outline: none;
