@@ -6,6 +6,27 @@
         color: $white-color;
     }
 
+    .col-lg-4 {
+      padding-left: 0;
+    }
+
+    .media {
+      padding: 15px;
+      margin-bottom: 0;
+      transition: all .2s ease-in-out;
+
+      &:hover {
+          background: #383838;
+      }
+
+      .media-body {
+          h5 {
+              color: $white-color;
+              @include hoverColor($accent-color3);
+          }
+      }
+    }
+
     .line-10 {
         border-color: #353535;
 
@@ -16,13 +37,6 @@
 
     .box-content-3-featured {
         h4 a {
-            @include hoverColor($accent-color3);
-        }
-    }
-
-    .media-body {
-        h5 {
-            color: $white-color;
             @include hoverColor($accent-color3);
         }
     }

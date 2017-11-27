@@ -4,15 +4,30 @@
         height: 480px;
     }
 
+    .col-md-4 {
+      padding-left: 0;
+    }
+
+    .media {
+        padding: 15px;
+        margin-bottom: 0;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            background: #383838;
+        }
+
+        .media-body {
+            h5 {
+                color: $white-color;
+                @include hoverColor($accent-color3);
+            }
+        }
+    }
+
     .wrap-video-list {
         height: 480px;
         overflow: auto;
     }
 
-    .media {
-        h5 {
-            color: $white-color;
-            @include hoverColor($accent-color2);
-        }
-    }
 }

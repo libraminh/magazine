@@ -3543,6 +3543,33 @@ input.nice-select-filter {
   color: #ffffff;
 }
 
+.home5-playlist .col-lg-4 {
+  padding-left: 0;
+}
+
+.home5-playlist .media {
+  padding: 15px;
+  margin-bottom: 0;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.home5-playlist .media:hover {
+  background: #383838;
+}
+
+.home5-playlist .media .media-body h5 {
+  color: #ffffff;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.home5-playlist .media .media-body h5:hover {
+  color: #ffb10a;
+}
+
 .home5-playlist .line-10 {
   border-color: #353535;
 }
@@ -3558,17 +3585,6 @@ input.nice-select-filter {
 }
 
 .home5-playlist .box-content-3-featured h4 a:hover {
-  color: #ffb10a;
-}
-
-.home5-playlist .media-body h5 {
-  color: #ffffff;
-  -webkit-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-}
-
-.home5-playlist .media-body h5:hover {
   color: #ffb10a;
 }
 
@@ -4163,20 +4179,36 @@ input.nice-select-filter {
   height: 480px;
 }
 
-.playlist-video-thumb-post .wrap-video-list {
-  height: 480px;
-  overflow: auto;
+.playlist-video-thumb-post .col-md-4 {
+  padding-left: 0;
 }
 
-.playlist-video-thumb-post .media h5 {
+.playlist-video-thumb-post .media {
+  padding: 15px;
+  margin-bottom: 0;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.playlist-video-thumb-post .media:hover {
+  background: #383838;
+}
+
+.playlist-video-thumb-post .media .media-body h5 {
   color: #ffffff;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 
-.playlist-video-thumb-post .media h5:hover {
-  color: #51aff7;
+.playlist-video-thumb-post .media .media-body h5:hover {
+  color: #ffb10a;
+}
+
+.playlist-video-thumb-post .wrap-video-list {
+  height: 480px;
+  overflow: auto;
 }
 
 /**** About ****/
@@ -4337,6 +4369,7 @@ input.nice-select-filter {
   color: #777777;
   width: 80%;
   margin: 30px 0;
+  line-height: 34px;
 }
 
 .error-thumb-post .error-wrap .btn-accent-2, .error-thumb-post .error-wrap .btn-black {
@@ -4396,6 +4429,7 @@ input.nice-select-filter {
     background: none;
   }
   .home3-menu .navbar-toggler, .home1-menu .navbar-toggler, .menu .navbar-toggler {
+    background: none !important;
     border: none;
     padding: 0;
   }
