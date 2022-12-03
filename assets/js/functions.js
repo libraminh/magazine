@@ -60,57 +60,57 @@ $(function(){
     asNavFor: '.gallery-control'
   });
 
-  if($(window).width() > 768) {
-      $(function() {
-        $(".home2-page").niceScroll({
-          cursorcolor:"#c26dc9",
-          cursorwidth: '10px',
-          cursorborder: '0px',
-          zindex: 10,
-          scrollspeed: 100
-        });
-      });
+  // if($(window).width() > 768) {
+  //     $(function() {
+  //       $(".home2-page").niceScroll({
+  //         cursorcolor:"#c26dc9",
+  //         cursorwidth: '10px',
+  //         cursorborder: '0px',
+  //         zindex: 10,
+  //         scrollspeed: 100
+  //       });
+  //     });
 
-      $(function() {
-        $(".home3-page").niceScroll({
-          cursorcolor:"#ff3249",
-          cursorwidth: '10px',
-          cursorborder: '0px',
-          zindex: 10,
-          scrollspeed: 100
-        });
-      });
+  //     $(function() {
+  //       $(".home3-page").niceScroll({
+  //         cursorcolor:"#ff3249",
+  //         cursorwidth: '10px',
+  //         cursorborder: '0px',
+  //         zindex: 10,
+  //         scrollspeed: 100
+  //       });
+  //     });
 
-      $(function() {
-        $(".accent-2-scroll").niceScroll({
-          cursorcolor:"#51aff7",
-          cursorwidth: '10px',
-          cursorborder: '0px',
-          zindex: 10,
-          scrollspeed: 100
-        });
-      });
+  //     $(function() {
+  //       $(".accent-2-scroll").niceScroll({
+  //         cursorcolor:"#51aff7",
+  //         cursorwidth: '10px',
+  //         cursorborder: '0px',
+  //         zindex: 10,
+  //         scrollspeed: 100
+  //       });
+  //     });
 
-      $(function() {
-        $(".home5-page").niceScroll({
-          cursorcolor:"#ffb10a",
-          cursorwidth: '10px',
-          cursorborder: '0px',
-          zindex: 10,
-          scrollspeed: 100
-        });
-      });
+  //     $(function() {
+  //       $(".home5-page").niceScroll({
+  //         cursorcolor:"#ffb10a",
+  //         cursorwidth: '10px',
+  //         cursorborder: '0px',
+  //         zindex: 10,
+  //         scrollspeed: 100
+  //       });
+  //     });
 
-      $(function() {
-        $(".wrap-video-list").niceScroll({
-          cursorcolor:"#555555",
-          cursorwidth: '5px',
-          cursorborder: '0px',
-          zindex: 10,
-          scrollspeed: 100
-        });
-      });
-  }
+  //     $(function() {
+  //       $(".wrap-video-list").niceScroll({
+  //         cursorcolor:"#555555",
+  //         cursorwidth: '5px',
+  //         cursorborder: '0px',
+  //         zindex: 10,
+  //         scrollspeed: 100
+  //       });
+  //     });
+  // }
 
 
 })
